@@ -1,0 +1,83 @@
+[
+    {
+        "id": "flowey-battle",
+        "title": "Flowey Battle",
+        "category": "chapter1",
+        "access": ["Save Editing"],
+        "firstVersion": "v1.3.3",
+        "lastVersion": "v1.3.3",
+        "description": "What seems to be Flowey's Undertale tutorial as a playable fight. Also breaks the 4th wall!"
+    },
+    {
+        "id": "betavoid-unused",
+        "title": "Beta Void Off-screen Area",
+        "category": "chapter1",
+        "access": ["Noclip"],
+        "firstVersion": "v1.3.3",
+        "lastVersion": "v2.4.3b",
+        "description": "There might've been fast travel planned here...?"
+    },
+    {
+        "id": "ruins-gate",
+        "title": "Ruins Gate Interaction",
+        "category": "newdfc",
+        "access": ["Noclip"],
+        "firstVersion": "v2.5.2",
+        "lastVersion": "v2.7.9c",
+        "description": "Originally meant for when Mandarina was going to be the main boss of the Ruins"
+    },
+    {
+        "id": "old-gaster-meeting",
+        "title": "Gaster's Old Introduction",
+        "category": "chapter1",
+        "access": ["Save Editing"],
+        "firstVersion": "v1.3.3",
+        "lastVersion": "v1.3.3",
+        "description": "An older version of Gaster's introduction cutscene, with overworld sprites instead of the fullscreen one"
+    },
+    {
+        "id": "innervoid-2.5d-game",
+        "title": "Inner Void Minigame (2.5D)",
+        "category": "olddfc",
+        "access": ["Save Editing"],
+        "firstVersion": "v2.0.0",
+        "lastVersion": "v2.6.1",
+        "description": "Chapter 1 Redux's soul piece segments, fully playable in DFC"
+    },
+    {
+        "id": "unused-ruins-rooms",
+        "title": "Unused Ruins rooms",
+        "category": "olddfc",
+        "access": ["Save Editing"],
+        "firstVersion": "v2.0.0",
+        "lastVersion": "v2.4.3b",
+        "description": "A pair of two scrapped puzzles, one of them still functional"
+    },
+    {
+        "id": "new-flowey-theme",
+        "title": "Your Best Friend Remix",
+        "category": "newdfc",
+        "access": ["Map Editor"],
+        "firstVersion": "v2.7.9c",
+        "lastVersion": "v2.7.9c",
+        "description": "A DF remix of Flowey's theme, which is not used for Racer!Flowey for some reason"
+    },
+    {
+        "id": "jevil",
+        "title": "Jevil",
+        "category": "olddfc",
+        "access": ["Save Editing"],
+        "firstVersion": "v2.0.0",
+        "lastVersion": "v2.6.1",
+        "description": "He's been fully playable for a LONG time now"
+    },
+    {
+        "id": "loss-lilypads",
+        "title": "Off-screen Lily Pads in Waterfall Cove",
+        "category": "chapter1",
+        "access": ["Noclip"],
+        "firstVersion": "v1.3.3",
+        "lastVersion": "v2.4.3b",
+        "description": "Is that Loss"
+    }
+]

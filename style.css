@@ -1,0 +1,38 @@
+:root {
+    --hflyer: #ff0076;
+    --moriyx: #bfbfef;
+    --rickyg: #2cf5bb;
+    --chapter1: #d535d9;
+    --olddfc: #6a7bc4;
+    --newdfc: #e03f25;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: black;
+    color: white;
+}
+
+footer p {
+    color: grey;
+    font-size: small;
+}
+
+a {
+    color: #962cf0;
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+img.pixelperfect, img.textbox {
+    image-rendering: pixelated;
+    image-rendering: -moz-crisp-edges;
+}
+
+p[title], span[title] {
+    text-decoration-line: underline;
+    text-decoration-style: dotted;
+}

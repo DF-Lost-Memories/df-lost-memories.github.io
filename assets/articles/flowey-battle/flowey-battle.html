@@ -1,0 +1,156 @@
+<center>
+    <video controls src="normalfight.mp4"></video><br>
+    <img class="textbox" data-text="FLOWEY - 19 ATK 0 DEF.\nYour new best friend!">
+    <p>Room 150 in v1.3.3 is a battle against Flowey.</p>
+    <p>The music used is <em>Your Best Friend</em>. It stops playing on turn 6</p>
+</center>
+<div class="two-columns">
+    <div>
+        <h2>In the normal state</h2>
+        <img src="normalflower.png" alt="Flowey">
+        <p>Checking or sparing him progresses the fight normally.</p>
+        <p>Missing an attack or using an item will cause him to react with special lines, but won't progress the fight.</p>
+        <p>Flowey doesn't attack on his first turn. On every other turn, he shoots friendliness pellets at the player.</p>
+        <p>Touching a pellet crashes the game.</p>
+        <p>Dealing damage to him causes him to get angry (see the other state). He will also react with a different line depending on whether he's attacked on the first turn or anytime else.</p>
+        <p>Attacking and dealing 0 damage makes him switch to his angry sprite, changes the music pitch, and triggers the angry state flavor text. However, the fight still progresses as in the normal state.</p>
+        <p>Flowey can be killed or spared when he is sparing the player.</p>
+    </div>
+    <div>
+        <h2>In the angry state</h2>
+        <img src="angryflower.png" alt="Angry Flowey">
+        <p>The music is pitched down.</p>
+        <p>Flowey uses a faster version of the attack pattern from his normal state.</p>
+        <p>Touching a pellet instantly kills the player and brings up the normal game over screen.</p>
+        <p>Missing or using an item causes him to react with special lines.</p>
+        <p>Attacking him makes him react as if you attacked him for the first time, most likely due to an oversight.</p>
+        <p>This state is essentially a softlock as Flowey can't be defeated and doesn't go back to th enormal state.</p>
+    </div>
+</div>
+<p>(Note: "Turn" in the next sections only refers to turns where the battle progresses, aka when the player checks or spares)</p>
+<div class="two-columns">
+    <div style="text-align: left;">
+        <h2 style="text-align: center;">Normal quotes</h2>
+        <ul>
+            <li>... <b>[Attacking, but dealing 0 damage]</b></li>
+            <li>Why are you doing that? I won't hurt you. <b>[Using an item]</b></li>
+            <li>Woah! Careful, buddy! <b>[Miss]</b></li>
+            <li>
+                <b>[Turn 1]</b>
+                <ul>
+                    <li>See that heart? That is your SOUL, the very culmination of your being!</li>
+                    <li>Your SOUL starts off pretty weak, but can grow stronger with a lot of LV!</li>
+                    <li>What's LV? Why, LOVE, of course!</li>
+                    <li>But we'll get to that later.</li>
+                    <li>For now, practice moving that little SOUL of yours around!</li>
+                </ul>
+            </li>
+            <li>
+                <b>[Turn 2]</b>
+                <ul>
+                    <li>Wow, good job, uh, moving, I guess..?</li>
+                    <li>Anyway, let's talk about LOVE!</li>
+                    <li>LOVE can make you really strong!</li>
+                    <li>You want some LOVE, don'tcha?</li>
+                    <li>Well here, I'll share some with you!</li>
+                    <li>Down here, LOVE is shared through...</li>
+                    <li>Little white... 'FRIENDLINESS PELLETS!'</li>
+                    <li>Move around, get as many as you can!</li>
+                </ul>
+            </li>
+            <li>Woah there! You need to touch them to gain some LOVE! Let's try again! <b>[Turn 3]</b></li>
+            <li>
+                <b>[Turn 4]</b>
+                <ul>
+                    <li>Buddy, you keep missing them.</li>
+                    <li>You need to touch them to gain LOVE.</li>
+                    <li>Try again...</li>
+                </ul>
+            </li>
+            <li>
+                <b>[Turn 5]</b>
+                <ul>
+                    <li>LOOK, BUDDY.</li>
+                    <li>TOUCH. THE. FREAKING. PELLETS.</li>
+                    <li>...</li>
+                    <li>...please.</li>
+                </ul>
+            </li>
+            <li>
+                <b>[Turn 6]</b>
+                <ul>
+                    <li>Okay, I get it.</li>
+                    <li>You know EXACTLY what's going on here, don't you?</li>
+                    <li>This is just a crappy rehash of UNDERTALE's intro.</li>
+                    <li>You've seen this all before.</li>
+                    <li>So in that case, I have no reason to keep this dumb charade going.</li>
+                    <li>You're free to go.</li>
+                </ul>
+            </li>
+            <li>Go on, get going. No tricks or anything. I'm done. <b>[Turn 7+]</b></li>
+        </ul>
+    </div>
+    <div style="text-align: left;">
+        <h2 style="text-align: center;">Angry quotes</h2>
+        <ul>
+            <li>... <b>[When not attacked]</b></li>
+            <li>Healing? Ha! What a weakling! <b>[Using an item]</b></li>
+            <li>Your aim SUCKS! <b>[Miss]</b></li>
+            <li>
+                <b>[When attacked on turn 1]</b>
+                <ul>
+                    <li>Woah, straight to the violence, huh?</li>
+                    <li>Well, two can play at that game, pal.</li>
+                    <li>Here, have some friendliness pellets!</li>
+                </ul>
+            </li>
+            <li>
+                <b>[When attacked on turn 2+]</b>
+                <ul>
+                    <li>Woah, turned to violence pretty quickly, huh?</li>
+                    <li>Well, two can play at that game, pal.</li>
+                    <li>Have some more friendliness pellets!</li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</div>
+<div class="lone-column">
+    <h2>Flavor Text</h2>
+    <ul>
+        <li>Your new best friend! <b>[Check]</b></li>
+        <li>You encounter Flowey! <b>[Turn 1]</b></li>
+        <li>Something about this seems a bit odd. <b>[Turn 2-3 normally]</b></li>
+        <li>That is one angry flower. <b>[Turn 2-3 if using angry sprite]</b></li>
+        <li>This flower is obviously up to no good. <b>[Turn 4+]</b></li>
+        <li>Flowey is sparing you. <b>[Turn 7]</b></li>
+        <li>Might as well accept his mercy before he changes his mind. <b>[Turn 8+]</b></li>
+    </ul>
+</div>
+<style>
+    .two-columns {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1%;
+    }
+    .two-columns div {
+        display: inline-block;
+        border-color: white;
+        border-style: solid;
+        text-align: center;
+        width: auto;
+        padding: 1%;
+        border-radius: 1em;
+    }
+    .lone-column {
+        display: inline-block;
+        border-color: white;
+        border-style: solid;
+        text-align: center;
+        box-sizing: border-box;
+        width: 100%;
+        margin-top: 1%;
+        padding: 1%;
+        border-radius: 1em;
+    }
+</style>
