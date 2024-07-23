@@ -5,6 +5,7 @@
     --chapter1: #d535d9;
     --olddfc: #6a7bc4;
     --newdfc: #e03f25;
+    --demo2: #962cf0;
 }
 
 body {
@@ -19,7 +20,7 @@ footer p {
 }
 
 a {
-    color: #962cf0;
+    color: #87ceeb;
     text-decoration: none;
 }
 
@@ -32,7 +33,32 @@ img.pixelperfect, img.textbox {
     image-rendering: -moz-crisp-edges;
 }
 
-p[title], span[title] {
-    text-decoration-line: underline;
-    text-decoration-style: dotted;
+p[title], span[title], a[title] {
+    text-decoration: dotted underline 1px;
+}
+
+.grid-container {
+    display: grid;
+    width: calc(100% - 20px);
+    box-sizing: border-box;
+    margin: 10px;
+    gap: 20px;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.grid-article {
+    text-align: center;
+    color: white;
+    padding: 1%;
+    width: auto;
+    box-sizing: border-box;
+    border-radius: 1em;
+    margin: 0 auto;
+}
+
+.grid-article img {
+    height: auto;
+    display: block;
+    margin: auto;
+    border-radius: 1em;
 }

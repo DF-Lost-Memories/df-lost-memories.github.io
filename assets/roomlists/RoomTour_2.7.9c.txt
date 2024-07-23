@@ -1,0 +1,396 @@
+==============================================
+             DONTFORGET CONNECTED
+       Original room codes list by Aspect
+             Edited by RedmanGame
+              Helped by AumiTyan
+               Fangame by RickyG
+            Current version: 2.7.9c
+==============================================
+                     Guide:
+
+Welcome to the Room List, wandering soul!
+If you want to inspect the rooms by yourself, 
+find DONTFORGET folder in you local appdata 
+(win+r -> %localappdata%)open your save file 
+(file9, file9b or file9c) and find a row named 
+"room="[room code]", then change the
+number before "." Have fun!!!
+
+P.S.: This changes only applies to your 
+offline save data!
+
+==============================================
+                    Menus:
+
+0 - Simple start of the game
+1 - Same as 1
+2 - Enter your username screen
+3 - Select your save file screen (no saves)
+4 - Respawn menu
+5 - New Update screen
+16 - Warp Screen
+266 - Save Slots Menu (Offline)
+267 - Sound Test Menu
+268 - Controls & Tips
+276 - Credits
+278 - Error! A copy of the game is already
+      running.
+279 - Connection to the server has been
+      terminated.
+280 - Error?! Mobile Error Screen
+281 - The game has unexpectedly lost its
+      connection to the server
+286-287 - Game Over Screen
+
+Total: 17
+
+==============================================
+                   World Hub:
+
+9 - World Hub
+10 - VIP Room
+11 - PVP Room
+12 - Hall of Fame
+13 - Trophy Room
+14 - World Hub
+15 - World Hub - Dark World Enter
+
+Total: 7
+
+==============================================                    
+                     Ruins:
+
+17 - Ruins - Beginning
+18 - Ruins - Entrance
+19 - Ruins - Bridge
+20 - Ruins - Training Room
+21 - Ruins - Bench
+22 - Ruins - Back Alley
+23 - Ruins - Deep Catacombs 1
+24 - Ruins - Deep Catacombs 2
+25 - Ruins - Leaf Pile (Catacombs)
+26 - Ruins - Candy Bowl
+27 - Ruins - South Hall
+29 - Ruins - Lone Frog
+30 - Ruins - Lone Hall
+31 - Ruins - Leaf Pile
+32 - Ruins - East Corner
+33 - Ruins - Den
+34 - Ruins - Garden
+35 - Ruins - Crossroad
+36 - Ruins - Sidepath
+37 - Ruins - Old Home
+38 - Ruins - Home
+39 - Ruins - Home (Inside)
+40 - Ruins - His Room
+41 - Ruins - Her Room
+42 - Ruins - Kitchen
+43 - Ruins - Downstairs
+45 - Ruins - Gold Grind
+195 - Lost World 1 - Entrance
+196 - Lost World 1 - Flowey's Patch
+197 - Lost World 1 - Ruins Entrance
+198 - Lost World 1 - Puzzle Room
+199 - Lost World 1 - Lever Room
+200 - Lost World 1 - Dummy Room
+201 - Lost World 1 - Spike Puzzle Room
+202 - Lost World 1 - Long Corridor
+
+Total: 29
+
+==============================================
+                    Snowdin:
+
+47 - Snowdin - Entrance
+48 - Snowdin - Hot Dog Stand
+49 - Snowdin - Box Road
+50 - Snowdin - Lake View
+51 - Snowdin - North Woods
+52 - Snowdin - Pap's Station
+53 - Snowdin - Ambush
+54 - Snowdin - Donut Lake
+55 - Snowdin - North Station
+56 - Snowdin - Bridge
+57 - Snowdin - Town
+58 - Snowdin - Inn
+59 - Snowdin - Inn Rooms
+60 - Snowdin - Grillby's
+61 - Snowdin - Town (Ice Machine)
+62 - Snowdin - Exit
+63 - Snowdin - Librarby
+64 - Snowdin - Skelebros
+65 - Snowdin - Kitchen
+66 - Snowdin - Pap's Room
+67 - Snowdin - sans' room
+68 - Snowdin - Gold Grind
+203 - Lost World 2 - Entrance
+204 - Lost World 2 - Crossroad
+205 - Lost World 2 - Snail Race Room
+206 - Lost World 2 - Box Room
+207 - Lost World 2 - Lake Room
+210 - Lost World 2 - Circle Room
+211 - Lost World 2 - Save Room
+212- Lost World 2 - Developer Rooms
+213 - Lost World 2 - Ricky's Room
+214 - Lost World 2 - Palodia's Room
+215 - Lost World 2 - Gaster Room
+216 - Lost World 2 - Shannon's room
+217 - Lost World 2 - Bad Tom Room
+218 - Lost World 2 - Surface
+219 - Lost Gold Grind
+220 - Lost World 2 - Gray Door
+221 - Lost World 2 - Flower Village
+222 - Lost World 2 - Chara's House
+223 - Lost World 2 - Town Hall
+277 - Snowdin - ??? (Shed)
+
+Total: 36
+
+==============================================
+                   Waterfall:
+
+69 - Waterfall - Entrance
+70 - Waterfall - C.Point
+71 - Waterfall - Rock Falls
+72 - Waterfall - Bypass
+73 - Waterfall - Cove
+74 - Waterfall - Clam Room
+75 - Waterfall - Field
+76 - Waterfall - Bridge
+77 - Waterfall - Shore
+78 - Waterfall - D.Blue
+79 - Waterfall - Dock
+80 - Waterfall - Pathway
+81 - Waterfall - The Hall
+82 - Waterfall - Last Echo
+83 - Waterfall - Quiet Hub
+84 - Waterfall - Undyne
+85 - Waterfall - Fish Home
+86 - Waterfall - Blookyard
+87 - Waterfall - Spookhome
+88 - Waterfall - MTT Home
+89 - Waterfall - Arcade
+90 - Waterfall - Temmie!!
+91 - Waterfall - Cavern
+92 - Waterfall - Crag
+93 - Waterfall - Cave
+94 - Waterfall - Gold Grind
+273 - Waterfall - ??? (Goner Kid Room)
+
+Total: 27
+
+==============================================
+                    Hotland:
+
+95 - Hotland - Entrance
+96 - Hotland - Laboratory
+97 - Hotland - Elevator
+98 - Hotland - In The Lab
+99 - Hotland - In The Lab (Upstairs)
+100 - Hotland - Lab Exit
+101 - Hotland - Conveyors
+102 - Hotland - Vents
+103 - Hotland - Split Road
+104 - Hotland - Hot Dogs
+105 - Hotland - Scaffolds
+106 - Hotland - News Report
+107 - Hotland - Leap Frog
+108 - Hotland - Elevator L
+109 - Hotland - Hopskotch
+110 - Hotland - Enter Stage
+111 - Hotland - Stage
+112 - Hotland - Tri Path
+113 - Hotland - Elevatpr R
+114 - Hotland - Hotel Front
+115 - Hotland - Hotel Lobby
+116 - Hotland - Restaurant
+117 - Hotland - Hotel Doors
+118 - Hotland - Hotel Room
+119 - Hotland - Hotel Exit
+120 - Core - Entrance
+121 - Core - Control Room
+122 - Core - Laser Bridge
+123 - Core - Pyramid
+124 - Core - Catwalk
+125 - Core - Final Bridge
+126 - Core - The Elevator
+127 - Core - Hazard Room
+128 - Core - Conveyors
+129 - Core - Gear Bridge
+130 - Core - Waiting Room
+131 - Core - Central Control
+132 - Core - East Belt
+133 - Core - East Elevator
+134 - Core - Cooling Vents
+135 - Core - Gold Grind
+136 - Hotland - True Door
+137 - True Lab - Entrance
+138 - True Lab - Machine
+142 - Hotland - Gold Grind
+224 - Lost World 3 - Entrance
+225 - Lost World 3 - 3 Froglitches Room
+226 - Lost World 3 - The Lab
+227 - Lost World 3 - Inside The Lab
+228 - Lost World 3 - Gasterbot
+
+Total: 50
+
+==============================================
+                    New Home:
+
+144 - New Home - Elevator
+145 - New Home - Capital
+146 - New Home - Hook
+147 - New Home - House
+148 - New Home - Inside
+149 - New Home - Their Room
+150 - New Home - King's Room
+151 - New Home - Kitchen
+152 - New Home - Basement 1
+153 - New Home - Basement 2
+154 - New Home - Basement 3
+155 - New Home - Approach
+156 - New Home - Corridor
+157 - New Home - Horseshoe
+158 - New Home - Stairs
+159 - New Home - Coffins
+160 - New Home - Throne Room
+161 - New Home - Final
+
+Total: 18
+
+==============================================
+                   Dark World:
+
+163 - Dark World - Entrance
+164 - Dark World - Great Door
+165 - Field - Entrance
+166 - Field - Woods
+167 - Field - Tree Room
+168 - Field - Thrash Maze
+169 - Field - Lone Patch
+170 - Field - South
+171 - The Great Board
+172 - Forest - Entrance
+173 - Forest - Bush Room
+174 - Forest - Rest Stop
+175 - Forest - Starwalker
+176 - Forest - Lounge
+177 - Forest - Bake Sale
+178 - Forest - Malius
+179 - Card Castle - Entry
+180 - Card Castle - Entry (Inside)
+181 - Card Castle - Rudinn's
+182 - Card Castle - Lancer's
+183 - Card Castle - Throne
+184 - Card Castle - Hallway
+185 - Card Castle - Fountain
+186 - Card Castle - Dungeon
+187 - Field - Gold Grind
+282 - Green Room
+
+Total: 26
+
+==============================================
+            Unused & Inaccesible Rooms:
+
+6 - Online labs hub (old/unused)
+7 - Forgotten Lab - Machine (unused)
+8 - Online Labs - Void Door (unused)
+28 - Ruins - Fixed Holes (unused)
+44 - Ruins - ??? (old GFollower 1 room)
+46 - Ruins - Mouse Hole
+139 - True Lab - Hallway (old/inaccesible)
+140 - True Lab - Chamber
+141 - True Lab - D.Blue Door
+143 - Hotland - ??? (old GFollower 3 room)
+162 - New Home - Exit Door
+208 - Lost World 2 - Hall of Fame
+209 - Lost World 2 - Grandfather's Place
+229 - Amalgam Raid
+230 - Amalgam Raid
+231 - Amalgam Raid
+232 - Ruins - Deep Catacombs (unused)
+233 - Snowdin - XO Puzzle 1
+234 - Snowdin - XO Puzzle 2
+235 - Snowdin - XO Puzzle 3
+236 - Snowdin - ??? (Old GFollower 2 room)
+237 - Snowdin - XO Finish
+283 - Entrance - Private Labs
+272 - OUT OF BOUNDS Room
+274 - Admin Vibe Room
+
+Total: 38
+
+==============================================
+                  Map Editor:
+
+289 - Width option
+290 - dfmap Save
+
+Total: 2
+
+==============================================
+                     Shops:
+
+254 - Grillby's Shop
+255 - Bratty & Catty's Shop
+256 - Temmie's Shop
+257- Vending Machine
+258 - Bank Menu
+
+Total: 5
+
+==============================================
+                      FFA:
+
+189 - Snowdin Map
+190 - Waterfall Map
+191 - Hotland Map
+192 - Snowdin Map
+193 - Waterfall Map
+194 - Hotland Map
+
+Total: 6
+
+==============================================
+                     Arcade:
+
+238 - Arcade Menu
+239 - Splat2D Menu
+240 - Splat2D Level 1/4
+241 - Splat2D Level 2/4
+242 - Splat2D Level 3/4
+243 - Splat2D Level 4/4
+244 - Splat2D Octavio's Lair
+245 - You Won!
+246 - Thundersnail Menu
+247 - Thundersnail Game
+248 - Game Over (TS)
+249 - Minecrap
+250 - World Type Menu
+251 - Normal Type World
+252 - Flat Type World
+253 - Save Your World
+284 - GTH VR
+
+Total: 17
+
+==============================================
+                      ???:
+
+182 - No Respond
+259-265 - But Nobody Came
+270 - Splat2D Test Level
+271 - Name Your Perseverance soul
+285 - But Nobody Came
+
+Total: 11
+
+==============================================
+
+Room 290 is the last working room
+On other rooms the game just closing
+(You can try to go further, maybe ive skipped smth interesting)
+
+==============================================

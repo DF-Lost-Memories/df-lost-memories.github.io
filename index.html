@@ -18,41 +18,11 @@
         <img class="textbox" data-text="This is a website dedicated to documenting unused content in DF CONNECTED.">
         <img class="textbox" data-text="The articles here are sorted by date, check out the categorized list in the top bar!">
     </center>
-    <div class="lone-column">
-        <h1>UNIMAGINABLY IMPORTANT NOTICE</h1>
-        <p>An update to the website is on the way!</p>
-        <p>The unencrypted data.win file of the 2018 demo (also known as Demo 2) has been found.</p>
-        <p>As it turns out, some of the content listed on this website were also unused in that version (specifically, <a style="color:var(--chapter1)" href="article.html?id=betavoid-unused">Beta Void Off-screen Area</a> and <a style="color:var(--chapter1)" href="article.html?id=flowey-battle">Flowey Battle</a> are the ones I've found so far).</p>
-        <p>Starting with the update, those articles will be updated and I'll also start documenting unused content from Demo 2 (it's technically the same game as DFC, unlike the Old Beta or Classic).</p>
-    </div>
+    <input style="margin: 1em 0; margin-left: 1em;" type="checkbox" name="toggle-subarticles" id="toggle-subarticles" onchange="changeGrid(this.checked)">
+    <label for="toggle-subarticles">Show subarticles</label>
     <div class="grid-container"></div>
     <footer></footer>
     <style>
-        .grid-container {
-            display: grid;
-            width: calc(100% - 20px);
-            box-sizing: border-box;
-            margin: 10px;
-            gap: 20px;
-            grid-template-columns: repeat(3, 1fr);
-        }
-
-        .grid-article {
-            text-align: center;
-            color: white;
-            padding: 1%;
-            width: auto;
-            box-sizing: border-box;
-            border-radius: 1em;
-            margin: 0 auto;
-        }
-
-        .grid-article img {
-            height: auto;
-            display: block;
-            margin: auto;
-            border-radius: 1em;
-        }
         .lone-column {
             display: inline-block;
             border-color: white;
@@ -65,6 +35,14 @@
             border-radius: 1em;
         }
     </style>
+    <script type="module">
+        import { generateGrid } from "./grid.js"
+        function changeGrid(subarticles) {
+            document.querySelector(".grid-container").innerHTML = ""
+            generateGrid(undefined, subarticles)
+        }
+        window.changeGrid = changeGrid;
+    </script>
 </body>
 
 </html>

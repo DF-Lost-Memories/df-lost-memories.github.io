@@ -1,23 +1,5 @@
 [
     {
-        "id": "flowey-battle",
-        "title": "Flowey Battle",
-        "category": "chapter1",
-        "access": ["Save Editing"],
-        "firstVersion": "v1.3.3",
-        "lastVersion": "v1.3.3",
-        "description": "What seems to be Flowey's Undertale tutorial as a playable fight. Also breaks the 4th wall!"
-    },
-    {
-        "id": "betavoid-unused",
-        "title": "Beta Void Off-screen Area",
-        "category": "chapter1",
-        "access": ["Noclip"],
-        "firstVersion": "v1.3.3",
-        "lastVersion": "v2.4.3b",
-        "description": "There might've been fast travel planned here...?"
-    },
-    {
         "id": "ruins-gate",
         "title": "Ruins Gate Interaction",
         "category": "newdfc",
@@ -79,5 +61,76 @@
         "firstVersion": "v1.3.3",
         "lastVersion": "v2.4.3b",
         "description": "Is that Loss"
+    },
+    {
+        "id": "dog-world",
+        "title": "Master Quest - Doge World",
+        "category": "chapter1",
+        "access": ["Save Editing", "Glitch"],
+        "firstVersion": "v1.3.3",
+        "lastVersion": "v2.4.3b",
+        "description": "Is that Loss"
+    },
+    {
+        "id": "mini-undertale",
+        "title": "Mini Undertale",
+        "category": "demo2",
+        "access": ["Save Editing"],
+        "firstVersion": "Demo 2",
+        "lastVersion": "v1.3.3",
+        "description": "A testing area with (allegedly) multiple bosses"
+    },
+    {
+        "id": "betavoid-unused",
+        "title": "Lost Areas of the Beta Void",
+        "category": "demo2",
+        "access": ["Save Editing", "Noclip"],
+        "firstVersion": "v0.1.5",
+        "lastVersion": "v2.4.3b",
+        "description": "From a playable timeline, to a Master Quest area, to a Lost World..."
+    },
+    {
+        "id": "demo2-multiplayer",
+        "title": "Leftovers of Demo 2 Online",
+        "category": "demo2",
+        "access": ["Game Data"],
+        "firstVersion": "v0.1.5",
+        "lastVersion": "v0.1.5",
+        "description": "The multiplayer update that never released"
+    },
+    {
+        "id": "demo2-main",
+        "title": "Future Plans for Demo 2",
+        "category": "demo2",
+        "description": "A series of articles about content that was meant for Demo 2's \"full game\"",
+        "subarticles": [
+            {
+                "id": "alternate-forgotten-lab",
+                "title": "Alternate Forgotten Lab",
+                "category": "demo2",
+                "access": ["Save Editing", "Game Data"],
+                "firstVersion": "v0.1.5",
+                "lastVersion": "v0.1.5",
+                "description": "A version of Gaster's lab with logs by the 3 followers and an encounter with the man himself"
+            },
+            {
+                "id": "alternate-machine",
+                "title": "Alternate Machine UI",
+                "category": "demo2",
+                "access": ["Save Editing", "Game Data"],
+                "firstVersion": "v0.1.5",
+                "lastVersion": "v0.1.5",
+                "description": "Multiple different interfaces planned for the Machine, and planned timelines"
+            },
+            {
+                "id": "f3-boss",
+                "title": "Follower 3 Boss Fight",
+                "category": "demo2",
+                "access": ["Save Editing"],
+                "firstVersion": "v0.1.5",
+                "lastVersion": "v0.1.5",
+                "description": "Ever wondered why Shattered but Standing is called mus_boss?"
+            }
+        ]
     }
 ]

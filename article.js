@@ -1,4 +1,5 @@
 import { generateTextboxes } from "./main.js";
+import { generateGrid } from "./grid.js";
 document.addEventListener('DOMContentLoaded', async () => {
     const urlParams = new URLSearchParams(window.location.search)
     const id = urlParams.get('id')
@@ -19,6 +20,8 @@ document.addEventListener('DOMContentLoaded', async () => {
                 element.src = `assets/articles/${id}/` + urlToRelative(element.src)
             })
             generateTextboxes()
+            if ("subarticles" in articleJSON)
+                generateGrid(articleJSON.subarticles)
         })
 })
 
@@ -48,10 +51,14 @@ function generateFullHeader(article) {
     center.innerHTML = `<h1>${article.title}</h1><hr>`
     const text = document.createElement("p")
     text.appendChild(generateCategoryHeader(article.category))
-    text.innerHTML += " | "
-    text.appendChild(generateVersionsHeader(article.firstVersion, article.lastVersion))
-    text.innerHTML += " | "
-    text.appendChild(generateAccessHeader(article.access))
+    if ("firstVersion" in article) {
+        text.innerHTML += " | "
+        text.appendChild(generateVersionsHeader(article.firstVersion, article.lastVersion))
+    }
+    if ("access" in article) {  
+        text.innerHTML += " | "
+        text.appendChild(generateAccessHeader(article.access))
+    }
     center.appendChild(text)
     center.innerHTML += "<hr>"
     return center
@@ -59,7 +66,7 @@ function generateFullHeader(article) {
 
 function generateAccessHeader(access) {
     const acc = document.createElement("span")
-    acc.innerHTML = "Accessed through "
+    acc.innerHTML = `Access method${access.length > 1 ? "s" : ""}: `
     access.forEach((method, i) => {
         const methodSpan = document.createElement("span")
         methodSpan.innerHTML = method
@@ -73,6 +80,12 @@ function generateAccessHeader(access) {
                 break
             case "Map Editor":
                 title = "Editing a .dfmap file to include a specific asset ID."
+                break
+            case "Glitch":
+                title = "Taking advantage of an bug or oversight in the game."
+                break
+            case "Game Data":
+                title = "Looking through the game's data file to find content that can't actually be seen in-game without modding. This is only acceptable for Demo 2."
                 break
         }
         methodSpan.title = title
@@ -92,16 +105,26 @@ function generateVersionsHeader(first, last) {
 function generateCategoryHeader(category) {
     const cat = document.createElement("span")
     cat.innerHTML = "Unused content from "
+    let vers = ""
+    let name = ""
     switch (category) {
         case "chapter1":
-            cat.innerHTML += `<span style="color: var(--chapter1)" title="v1.0.0 - v1.3.3">Chapter 1</span>`
+            vers = "v1.0.0 - v1.3.3"
+            name = "Chapter 1" 
             break
         case "olddfc":
-            cat.innerHTML += `<span style="color: var(--olddfc)" title="v2.0.0 - v2.4.3b">Old DF CONNECTED</span>`
+            vers = "v2.0.0 - v2.4.3b"
+            name = "Old DF CONNECTED"
             break
         case "newdfc":
-            cat.innerHTML += `<span style="color: var(--newdfc)" title="v2.5.0 - v2.7.9c">New DF CONNECTED</span>`
+            vers = "v2.5.0 - v2.7.9c"
+            name = "New DF CONNECTED" 
+            break
+        case "demo2":
+            vers = "v0.1.0 - v0.1.5"
+            name = "Demo 2" 
             break
     }
+    cat.innerHTML += `<span style="color: var(--${category})" title="${vers}">${name}</span>`
     return cat
 }

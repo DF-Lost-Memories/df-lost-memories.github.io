@@ -10,7 +10,7 @@ export function generateTextboxes() {
 document.addEventListener('DOMContentLoaded', () => {
     document.querySelector('header').innerHTML = 
     `<h1>DF: Lost Memories</h1>
-    <p>DF CONNECTED's cutting room floor</p>
+    <p>DONTFORGET's cutting room floor</p>
     <hr>
     <a href="index.html">Home</a> | <a href="list.html">Unused Content List</a> | <a href="resources.html">Resources</a> | <a href="about.html">About</a>
     <hr>`
