@@ -3,13 +3,17 @@ import { generateGrid } from "./grid.js";
 document.addEventListener('DOMContentLoaded', async () => {
     const urlParams = new URLSearchParams(window.location.search)
     const id = urlParams.get('id')
+    const main = urlParams.get('main')
     let articleJSON
-    await getArticleFromID(id).then(json => {
+    await getArticleFromID(id, main).then(json => {
         articleJSON = json
     })
     document.title = `${articleJSON.title} | Lost Memories`
     const articleContainer = document.querySelector('.article-container')
-    fetch(`assets/articles/${id}/${id}.html`)
+    var path = `assets/articles/${id}/`
+    if (main != undefined)
+        path = `assets/articles/${main}/${id}/`
+    fetch(path + `${id}.html`)
         .then(response => response.text())
         .then(article => {
             articleContainer.innerHTML = ""
@@ -17,11 +21,11 @@ document.addEventListener('DOMContentLoaded', async () => {
             articleContainer.innerHTML += article
             const media = document.querySelectorAll("img:not(.textbox), video, audio")
             media.forEach(element => {
-                element.src = `assets/articles/${id}/` + urlToRelative(element.src)
+                element.src = path + urlToRelative(element.src)
             })
             generateTextboxes()
             if ("subarticles" in articleJSON)
-                generateGrid(articleJSON.subarticles)
+                generateGrid(articleJSON, false)
         })
 })
 
@@ -32,16 +36,26 @@ function urlToRelative(abs) {
     return rel
 }
 
-async function getArticleFromID(id) {
+async function getArticleFromID(id, main = undefined) {
     return fetch('assets/articles/articles.json')
         .then(response => response.json())
-        .then(articles => {
+        .then(async articles => {
             let articleJSON = null;
-            articles.forEach(article => {
-                if (article.id == id) {
-                    articleJSON = article;
-                }
-            });
+            if (main != undefined) {
+                await getArticleFromID(main).then(json => {
+                    json.subarticles.forEach(subarticle => {
+                        if (subarticle.id == id) {
+                            articleJSON = subarticle;
+                        }
+                    })
+                });
+            } else {
+                articles.forEach(article => {
+                    if (article.id == id) {
+                        articleJSON = article;
+                    }
+                });
+            }
             return articleJSON;
         })
 }
@@ -84,8 +98,8 @@ function generateAccessHeader(access) {
             case "Glitch":
                 title = "Taking advantage of an bug or oversight in the game."
                 break
-            case "Game Data":
-                title = "Looking through the game's data file to find content that can't actually be seen in-game without modding. This is only acceptable for Demo 2."
+            case "Modding":
+                title = "Modifying or looking through the game's data file to find content that can't be accessed through other methods.\nThis is only acceptable for Demo 2, and mods are not to be distributed."
                 break
         }
         methodSpan.title = title

@@ -3,14 +3,13 @@ document.addEventListener('DOMContentLoaded', () => {
 })
 
 export function generateList(subarticles = false) {
-    const table = document.querySelector('.list-columns')
     fetch('assets/articles/articles.json')
         .then(response => response.json())
         .then(articles => {
             articles.forEach(article => {
                 if ("subarticles" in article && subarticles) {
                     article.subarticles.forEach(subarticle => {
-                        generateListArticle(subarticle, article.title)
+                        generateListArticle(subarticle, article.title, article.id)
                     })
                 } else {
                     generateListArticle(article)
@@ -20,9 +19,11 @@ export function generateList(subarticles = false) {
         .catch(error => console.error('Error fetching articles: ', error))
 }
 
-function generateListArticle(article, mainName = "") {
+function generateListArticle(article, mainName = "", mainID = "") {
     const link = document.createElement("a")
     link.href = `article.html?id=${article.id}`
+    if (mainID != "")
+        link.href+= `&main=${mainID}`
     link.innerHTML = article.title
     if (mainName != "")
         link.title = `From "${mainName}"`

@@ -93,7 +93,7 @@
         "id": "demo2-multiplayer",
         "title": "Leftovers of Demo 2 Online",
         "category": "demo2",
-        "access": ["Game Data"],
+        "access": ["Modding"],
         "firstVersion": "v0.1.5",
         "lastVersion": "v0.1.5",
         "description": "The multiplayer update that never released"
@@ -105,10 +105,10 @@
         "description": "A series of articles about content that was meant for Demo 2's \"full game\"",
         "subarticles": [
             {
-                "id": "alternate-forgotten-lab",
-                "title": "Alternate Forgotten Lab",
+                "id": "private-labs",
+                "title": "Private Labs",
                 "category": "demo2",
-                "access": ["Save Editing", "Game Data"],
+                "access": ["Save Editing", "Modding"],
                 "firstVersion": "v0.1.5",
                 "lastVersion": "v0.1.5",
                 "description": "A version of Gaster's lab with logs by the 3 followers and an encounter with the man himself"
@@ -117,7 +117,7 @@
                 "id": "alternate-machine",
                 "title": "Alternate Machine UI",
                 "category": "demo2",
-                "access": ["Save Editing", "Game Data"],
+                "access": ["Save Editing", "Modding"],
                 "firstVersion": "v0.1.5",
                 "lastVersion": "v0.1.5",
                 "description": "Multiple different interfaces planned for the Machine, and planned timelines"
