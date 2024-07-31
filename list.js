@@ -1,5 +1,6 @@
 document.addEventListener('DOMContentLoaded', () => {
-    generateList(document.querySelector("#toggle-subarticles").checked)
+    // generateList(document.querySelector("#toggle-subarticles").checked)
+    generateList(false)
 })
 
 export function generateList(subarticles = false) {

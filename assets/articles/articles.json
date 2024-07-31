@@ -99,38 +99,39 @@
         "description": "The multiplayer update that never released"
     },
     {
-        "id": "demo2-main",
-        "title": "Future Plans for Demo 2",
+        "id": "private-labs",
+        "title": "Private Labs",
         "category": "demo2",
-        "description": "A series of articles about content that was meant for Demo 2's \"full game\"",
-        "subarticles": [
-            {
-                "id": "private-labs",
-                "title": "Private Labs",
-                "category": "demo2",
-                "access": ["Save Editing", "Modding"],
-                "firstVersion": "v0.1.5",
-                "lastVersion": "v0.1.5",
-                "description": "A version of Gaster's lab with logs by the 3 followers and an encounter with the man himself"
-            },
-            {
-                "id": "alternate-machine",
-                "title": "Alternate Machine UI",
-                "category": "demo2",
-                "access": ["Save Editing", "Modding"],
-                "firstVersion": "v0.1.5",
-                "lastVersion": "v0.1.5",
-                "description": "Multiple different interfaces planned for the Machine, and planned timelines"
-            },
-            {
-                "id": "f3-boss",
-                "title": "Follower 3 Boss Fight",
-                "category": "demo2",
-                "access": ["Save Editing"],
-                "firstVersion": "v0.1.5",
-                "lastVersion": "v0.1.5",
-                "description": "Ever wondered why Shattered but Standing is called mus_boss?"
-            }
-        ]
+        "access": ["Save Editing", "Modding"],
+        "firstVersion": "v0.1.5",
+        "lastVersion": "v0.1.5",
+        "description": "A version of Gaster's lab with logs by the 3 followers and an encounter with the man himself"
+    },
+    {
+        "id": "alternate-machine",
+        "title": "Alternate Machine UI",
+        "category": "demo2",
+        "access": ["Modding"],
+        "firstVersion": "v0.1.5",
+        "lastVersion": "v0.1.5",
+        "description": "Multiple different interfaces planned for the Machine, and planned timelines"
+    },
+    {
+        "id": "f3-boss",
+        "title": "Follower 3 Boss Fight",
+        "category": "demo2",
+        "access": ["Save Editing"],
+        "firstVersion": "v0.1.5",
+        "lastVersion": "v0.1.5",
+        "description": "Ever wondered why Shattered but Standing is called mus_boss?"
+    },
+    {
+        "id": "demo2-phone",
+        "title": "Demo 2 Phone UI",
+        "category": "demo2",
+        "access": ["Modding"],
+        "firstVersion": "v0.1.5",
+        "lastVersion": "v0.1.5",
+        "description": "The predecessor of Chapter 1's progress menu?"
     }
 ]

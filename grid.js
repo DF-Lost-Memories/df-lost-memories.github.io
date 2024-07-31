@@ -1,6 +1,7 @@
 document.addEventListener('DOMContentLoaded', () => {
     if (location.href.split("/").slice(-1)[0].split("?")[0] != "article.html")
-        generateGrid(undefined, document.querySelector("#toggle-subarticles").checked)
+        // generateGrid(undefined, document.querySelector("#toggle-subarticles").checked)
+        generateGrid(undefined, false)
 })
 
 export async function generateGrid(main, subarticles = false) {
