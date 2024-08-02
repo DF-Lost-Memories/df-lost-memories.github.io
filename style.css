@@ -33,7 +33,7 @@ img.pixelperfect, img.textbox {
     image-rendering: -moz-crisp-edges;
 }
 
-p[title], span[title], a[title] {
+*[title] {
     text-decoration: dotted underline 1px;
 }
 

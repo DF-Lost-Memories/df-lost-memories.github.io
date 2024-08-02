@@ -56,9 +56,9 @@
     {
         "id": "loss-lilypads",
         "title": "Off-screen Lily Pads in Waterfall Cove",
-        "category": "chapter1",
+        "category": "demo2",
         "access": ["Noclip"],
-        "firstVersion": "v1.3.3",
+        "firstVersion": "v0.1.5",
         "lastVersion": "v2.4.3b",
         "description": "Is that Loss"
     },
@@ -74,6 +74,7 @@
     {
         "id": "mini-undertale",
         "title": "Mini Undertale",
+        "demo2only": true,
         "category": "demo2",
         "access": ["Save Editing"],
         "firstVersion": "Demo 2",
@@ -92,6 +93,7 @@
     {
         "id": "demo2-multiplayer",
         "title": "Leftovers of Demo 2 Online",
+        "demo2only": true,
         "category": "demo2",
         "access": ["Modding"],
         "firstVersion": "v0.1.5",
@@ -101,6 +103,7 @@
     {
         "id": "private-labs",
         "title": "Private Labs",
+        "demo2only": true,
         "category": "demo2",
         "access": ["Save Editing", "Modding"],
         "firstVersion": "v0.1.5",
@@ -110,6 +113,7 @@
     {
         "id": "alternate-machine",
         "title": "Alternate Machine UI",
+        "demo2only": true,
         "category": "demo2",
         "access": ["Modding"],
         "firstVersion": "v0.1.5",
@@ -119,6 +123,7 @@
     {
         "id": "f3-boss",
         "title": "Follower 3 Boss Fight",
+        "demo2only": true,
         "category": "demo2",
         "access": ["Save Editing"],
         "firstVersion": "v0.1.5",
@@ -127,7 +132,8 @@
     },
     {
         "id": "demo2-phone",
-        "title": "Demo 2 Phone UI",
+        "title": "Phone UI",
+        "demo2only": true,
         "category": "demo2",
         "access": ["Modding"],
         "firstVersion": "v0.1.5",
