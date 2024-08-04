@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     await getArticleFromID(id).then(json => {
         articleJSON = json
     })
-    document.title = `${articleJSON.title} | Lost Memories`
+    document.title = `${articleJSON.title} | ${articleJSON.demo2only ? "Lost Timelines": "Lost Memories"}`
     const articleContainer = document.querySelector('.article-container')
     fetch(`/assets/articles/${id}/${id}.html`)
         .then(response => response.text())

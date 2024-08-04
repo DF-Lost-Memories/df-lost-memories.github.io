@@ -139,5 +139,15 @@
         "firstVersion": "v0.1.5",
         "lastVersion": "v0.1.5",
         "description": "The predecessor of Chapter 1's progress menu?"
+    },
+    {
+        "id": "void-levels",
+        "title": "Unused Void Levels",
+        "demo2only": true,
+        "category": "demo2",
+        "access": ["Modding"],
+        "firstVersion": "v0.1.5",
+        "lastVersion": "v0.1.5",
+        "description": "A compilation of all of the unused wormhole levels"
     }
 ]
