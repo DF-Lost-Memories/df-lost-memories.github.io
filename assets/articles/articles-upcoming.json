@@ -1,0 +1,50 @@
+[
+    {
+        "id": "dog-world",
+        "title": "Master Quest - Doge World",
+        "category": "chapter1",
+        "access": ["Save Editing", "Glitch"],
+        "firstVersion": "v1.3.3",
+        "lastVersion": "v2.4.3b",
+        "description": "Fully functional MQ world with a key, infamously accessible through a gap in the collisions"
+    },
+    {
+        "id": "mini-undertale",
+        "title": "Mini Undertale",
+        "demo2only": true,
+        "category": "demo2",
+        "access": ["Save Editing"],
+        "firstVersion": "Demo 2",
+        "lastVersion": "v1.3.3",
+        "description": "A testing area with (allegedly) multiple bosses (This is where Flowey's battle went!)"
+    },
+    {
+        "id": "demo2-multiplayer",
+        "title": "Leftovers of Demo 2 Online",
+        "demo2only": true,
+        "category": "demo2",
+        "access": ["Modding"],
+        "firstVersion": "v0.1.5",
+        "lastVersion": "v0.1.5",
+        "description": "The multiplayer update that never released"
+    },
+    {
+        "id": "void-levels",
+        "title": "Unused Void Levels",
+        "demo2only": true,
+        "category": "demo2",
+        "access": ["Modding"],
+        "firstVersion": "v0.1.5",
+        "lastVersion": "v0.1.5",
+        "description": "A compilation of all of the unused wormhole levels"
+    },
+    {
+        "id": "hotland-ffa",
+        "title": "Hotland FFA",
+        "category": "demo2",
+        "access": ["Save Editing"],
+        "firstVersion": "v0.1.5",
+        "lastVersion": "v2.4.3b",
+        "description": "The map that shows up in the FFA menu but never in the actual game"
+    }
+]

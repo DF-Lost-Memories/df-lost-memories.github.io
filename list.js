@@ -3,7 +3,8 @@ export function generateList() {
         .then(response => response.json())
         .then(articles => {
             articles.forEach(article => {
-                generateListArticle(article)
+                if (!article.demo2only)
+                    generateListArticle(article)
             })
         })
         .catch(error => console.error('Error fetching articles: ', error))

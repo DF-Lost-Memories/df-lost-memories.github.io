@@ -1,13 +1,14 @@
 import { generateGrid } from "/grid.js"
 import { generateList } from "/list.js"
 import { generateTextboxes } from "/textbox.js"
+import { generateUpcoming } from "/upcoming.js"
 
 document.addEventListener('DOMContentLoaded', () => {
     document.querySelector('header').innerHTML = 
     `<h1>DF: Lost Memories</h1>
     <p>DONTFORGET's cutting room floor</p>
     <hr>
-    <a href="index.html">Home</a> | <a href="list.html">Unused Content List</a> | <a href="resources.html">Resources</a> | <a href="about.html">About</a> | <a href="/demo2/index.html" style="color:var(--demo2);">Lost Timelines</a>
+    <a href="index.html">Home</a> | <a href="list.html">Unused Content List</a> | <a href="resources.html">Resources</a> | <a href="about.html">About</a> | <a href="upcoming.html">Upcoming Articles</a> | <a href="/demo2/index.html" style="color:var(--demo2);">Lost Timelines</a>
     <hr>`
 
     document.querySelector('footer').innerHTML =
@@ -16,4 +17,5 @@ document.addEventListener('DOMContentLoaded', () => {
     generateTextboxes()
     generateGrid()
     generateList()
+    generateUpcoming()
 })
