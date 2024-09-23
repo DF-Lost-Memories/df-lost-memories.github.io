@@ -62,3 +62,7 @@ img.pixelperfect, img.textbox {
     margin: auto;
     border-radius: 1em;
 }
+
+.grid-article h3, .grid-article p {
+    margin: 2%;
+}

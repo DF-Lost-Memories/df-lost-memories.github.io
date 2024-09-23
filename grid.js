@@ -15,11 +15,8 @@ function generateGridArticle(article, grid) {
     gridArticle.className = "grid-article"
     gridArticle.href = `article.html?id=${article.id}`
     gridArticle.style.backgroundColor = getComputedStyle(document.body).getPropertyValue(`--${article.category}`);
-    gridArticle.innerHTML = `<img src="/assets/articles/${article.id}/thumbnail.png">`
-    gridArticle.innerHTML += 
-    `
-    <h3>${article.title}</h3>
-    <p>${article.description}</p>
-    `
+    gridArticle.innerHTML += `<h3>${article.title}</h3>`
+    gridArticle.innerHTML += `<img src="/assets/articles/${article.id}/thumbnail.png">`
+    gridArticle.innerHTML += `<p>${article.description}</p>`
     grid.appendChild(gridArticle)
 }
