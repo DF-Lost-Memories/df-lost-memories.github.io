@@ -110,5 +110,14 @@
         "firstVersion": "v0.1.5",
         "lastVersion": "v0.1.5",
         "description": "The predecessor of Chapter 1's progress menu?"
+    },
+    {
+        "id": "dog-world",
+        "title": "Master Quest - Doge World",
+        "category": "chapter1",
+        "access": ["Save Editing", "Glitch"],
+        "firstVersion": "v1.3.3",
+        "lastVersion": "v2.4.3b",
+        "description": "Fully functional MQ world with a key, infamously accessible through a gap in the collisions"
     }
 ]
