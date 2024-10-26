@@ -1,4 +1,4 @@
-import { generateTextboxes } from "/textbox.js";
+import { generateTextboxes } from "/scripts/textbox.js";
 
 document.addEventListener('DOMContentLoaded', async () => {
     const urlParams = new URLSearchParams(window.location.search)

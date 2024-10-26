@@ -1,7 +1,7 @@
-import { generateGrid } from "/grid.js"
-import { generateList } from "/list.js"
-import { generateTextboxes } from "/textbox.js"
-import { generateUpcoming } from "/upcoming.js"
+import { generateGrid } from "/scripts/grid.js"
+import { generateList } from "/scripts/list.js"
+import { generateTextboxes } from "/scripts/textbox.js"
+import { generateUpcoming } from "/scripts/upcoming.js"
 
 document.addEventListener('DOMContentLoaded', () => {
     document.querySelector('header').innerHTML = 

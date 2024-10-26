@@ -5,7 +5,7 @@
         "category": "newdfc",
         "access": ["Noclip"],
         "firstVersion": "v2.5.2",
-        "lastVersion": "v2.7.9c",
+        "lastVersion": "v2.7.12",
         "description": "Originally meant for when Mandarina was going to be the main boss of the Ruins"
     },
     {
@@ -41,7 +41,7 @@
         "category": "newdfc",
         "access": ["Map Editor"],
         "firstVersion": "v2.7.9c",
-        "lastVersion": "v2.7.9c",
+        "lastVersion": "v2.7.12",
         "description": "A DF remix of Flowey's theme, which is not used for Racer!Flowey for some reason"
     },
     {

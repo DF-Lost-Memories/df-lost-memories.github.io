@@ -5,9 +5,14 @@
     <meta charset="UTF-8">
     <title>Lost Memories</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon">
-    <script type="module" src="main.js"></script>
-    <script type="module" src="list.js"></script>
+    <link rel="icon" type="image/png" href="/assets/favicon/favicon-48x48.png" sizes="48x48" />
+    <link rel="icon" type="image/svg+xml" href="/assets/favicon/favicon.svg" />
+    <link rel="shortcut icon" href="/assets/favicon/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon/apple-touch-icon.png" />
+    <meta name="apple-mobile-web-app-title" content="DFLM" />
+    <link rel="manifest" href="/assets/favicon/site.webmanifest" />
+    <script type="module" src="scripts/main.js"></script>
+    <script type="module" src="scripts/list.js"></script>
 </head>
 
 <body>
@@ -77,7 +82,7 @@
         }
     </style>
     <script type="module">
-        import { generateList } from "/list.js"
+        import { generateList } from "/scripts/list.js"
         function changeList(subarticles) {
             [".demo2", ".chapter1", ".olddfc", ".newdfc"].forEach(version => {
                 document.querySelector(version).replaceChildren(document.querySelector(version).firstElementChild)

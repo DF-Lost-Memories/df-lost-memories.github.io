@@ -1,5 +1,5 @@
-import { generateTextboxes } from "/textbox.js"
-import { generateGrid } from "/grid.js"
+import { generateTextboxes } from "/scripts/textbox.js"
+import { generateGrid } from "/scripts/grid.js"
 
 document.addEventListener('DOMContentLoaded', () => {
     const sillymessages = ["demo 2 deserves a whole website of its own", "at this point my website should be called lost timelines the way more than half of it is about demo 2", "remember when i said demo 2 deserved its own website for unused content"]
