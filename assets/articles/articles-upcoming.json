@@ -28,14 +28,5 @@
         "firstVersion": "v0.1.5",
         "lastVersion": "v0.1.5",
         "description": "A compilation of all of the unused wormhole levels"
-    },
-    {
-        "id": "hotland-ffa",
-        "title": "Hotland FFA",
-        "category": "demo2",
-        "access": ["Save Editing"],
-        "firstVersion": "v0.1.5",
-        "lastVersion": "v2.4.3b",
-        "description": "The map that shows up in the FFA menu but never in the actual game"
     }
 ]

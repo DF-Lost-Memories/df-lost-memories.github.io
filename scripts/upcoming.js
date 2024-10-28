@@ -11,6 +11,10 @@ export async function generateUpcoming() {
         else
             generateUpcomingItem(article, document.querySelector(".upcoming"))
     })
+    if (document.querySelector(".upcoming").innerHTML == "")
+        document.querySelector(".upcoming").innerHTML += "<li>Nothing yet!</li>"
+    if (document.querySelector(".upcoming-demo2").innerHTML == "")
+        document.querySelector(".upcoming-demo2").innerHTML += "<li>Nothing yet!</li>"
 }
 function generateUpcomingItem(article, list) {
     list.innerHTML += 
