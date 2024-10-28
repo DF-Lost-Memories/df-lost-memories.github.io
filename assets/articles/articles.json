@@ -119,5 +119,15 @@
         "firstVersion": "v1.3.3",
         "lastVersion": "v2.4.3b",
         "description": "Fully functional MQ world with a key, infamously accessible through a gap in the collisions"
+    },
+    {
+        "id": "online-labs",
+        "title": "Online Labs",
+        "demo2only": false,
+        "category": "demo2",
+        "access": ["Save Editing"],
+        "firstVersion": "v0.1.5",
+        "lastVersion": "v2.7.12",
+        "description": "Demo 2's online hub that was not only kept in the files... but also updated?"
     }
 ]
