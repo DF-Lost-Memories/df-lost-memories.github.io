@@ -113,7 +113,7 @@ function generateCategoryHeader(category) {
             break
         case "newdfc":
             vers = "v2.5.0 - v2.7.12"
-            name = "New DF CONNECTED" 
+            name = "Modern DF CONNECTED" 
             break
         case "demo2":
             vers = "v0.1.0 - v0.1.5"

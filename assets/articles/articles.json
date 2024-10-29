@@ -129,5 +129,14 @@
         "firstVersion": "v0.1.5",
         "lastVersion": "v2.7.12",
         "description": "Demo 2's online hub that was not only kept in the files... but also updated?"
+    },
+    {
+        "id": "unused-ruins-rooms-2",
+        "title": "More unused Ruins rooms",
+        "category": "newdfc",
+        "access": ["Save Editing"],
+        "firstVersion": "v2.5.2",
+        "lastVersion": "v2.7.12",
+        "description": "The long-awaited sequel!"
     }
 ]
