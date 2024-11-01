@@ -39,9 +39,9 @@
         "id": "new-flowey-theme",
         "title": "Your Best Friend Remix",
         "category": "newdfc",
-        "access": ["Map Editor"],
+        "access": ["Sound Editing", "Map Editor"],
         "firstVersion": "v2.7.9c",
-        "lastVersion": "v2.7.12",
+        "lastVersion": "v2.7.13",
         "description": "A DF remix of Flowey's theme, which is not used for Racer!Flowey for some reason"
     },
     {

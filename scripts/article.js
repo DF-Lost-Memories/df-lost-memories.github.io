@@ -68,19 +68,22 @@ function generateAccessHeader(access) {
         let title = ""
         switch (methodSpan.innerHTML) {
             case "Noclip":
-                title = "Noclipping in a certain room, using the editor feature in v2.6.0+ or using Cheat Engine."
+                title = "Noclipping in a certain room, using the editor feature introduced in v2.6.0 or using Cheat Engine."
                 break
             case "Save Editing":
                 title = "Editing an offline save file in %localappdata%, to go to an inaccessible room or otherwise modify stats."
                 break
             case "Map Editor":
-                title = "Editing a .dfmap file to include a specific asset ID."
+                title = "Editing a .dfmap file to include a specific asset."
                 break
             case "Glitch":
                 title = "Taking advantage of an bug or oversight in the game."
                 break
             case "Modding":
                 title = "Modifying or looking through the game's data file to find content that can't be accessed through other methods.\nThis is only acceptable for Demo 2, and mods are not to be distributed."
+                break
+            case "Sound Editing":
+                title = "Looking through the game's audiogroup1.dat and audiogroup2.dat files to find unused music or sound effects."
                 break
         }
         methodSpan.title = title
@@ -112,7 +115,7 @@ function generateCategoryHeader(category) {
             name = "Old DF CONNECTED"
             break
         case "newdfc":
-            vers = "v2.5.0 - v2.7.12"
+            vers = "v2.5.0 - v2.7.13"
             name = "Modern DF CONNECTED" 
             break
         case "demo2":
