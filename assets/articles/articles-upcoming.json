@@ -5,9 +5,9 @@
         "demo2only": true,
         "category": "demo2",
         "access": ["Save Editing"],
-        "firstVersion": "Demo 2",
+        "firstVersion": "v0.1.5",
         "lastVersion": "v1.3.3",
-        "description": "A testing area with (allegedly) multiple bosses (This is where Flowey's battle went!)"
+        "description": "A testing area with (allegedly) multiple bosses"
     },
     {
         "id": "demo2-multiplayer",
@@ -28,5 +28,23 @@
         "firstVersion": "v0.1.5",
         "lastVersion": "v0.1.5",
         "description": "A compilation of all of the unused wormhole levels"
+    },
+    {
+        "id": "unused-hometown-rooms",
+        "title": "Unused Hometown rooms",
+        "category": "chapter1",
+        "access": ["Save Editing", "Noclip"],
+        "firstVersion": "v1.3.3",
+        "lastVersion": "v1.3.3",
+        "description": "Spin-off in the critically-acclaimed unused Ruins rooms series"
+    },
+    {
+        "id": "amalgam-raid",
+        "title": "Amalgam Raids",
+        "category": "olddfc",
+        "access": ["Save Editing"],
+        "firstVersion": "v1.3.3",
+        "lastVersion": "v1.3.3",
+        "description": "Potentially FFA-like boss fight events"
     }
 ]
