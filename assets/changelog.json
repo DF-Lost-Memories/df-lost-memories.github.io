@@ -1,0 +1,12 @@
+[
+    {
+        "date": "2024-11-22",
+        "additions": [
+            "Added changelog",
+            "Added Discord link"
+        ],
+        "changes": [
+            "Changed navbar layout to move some items to the right"
+        ]
+    }
+]
