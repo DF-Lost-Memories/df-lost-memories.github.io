@@ -37,14 +37,5 @@
         "firstVersion": "v1.3.3",
         "lastVersion": "v1.3.3",
         "description": "Spin-off in the critically-acclaimed unused Ruins rooms series"
-    },
-    {
-        "id": "amalgam-raid",
-        "title": "Amalgam Raids",
-        "category": "olddfc",
-        "access": ["Save Editing"],
-        "firstVersion": "v1.3.3",
-        "lastVersion": "v1.3.3",
-        "description": "Potentially FFA-like boss fight events"
     }
 ]

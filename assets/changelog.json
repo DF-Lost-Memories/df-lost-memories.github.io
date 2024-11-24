@@ -8,5 +8,11 @@
         "changes": [
             "Changed navbar layout to move some items to the right"
         ]
+    },
+    {
+        "date": "2024-11-24",
+        "additions": [
+            "New article: <a href=\"/article.html?id=amalgam-raid\" style=\"color:var(--olddfc)\">Raid Battles</a>"
+        ]
     }
 ]

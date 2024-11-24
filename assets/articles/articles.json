@@ -138,5 +138,14 @@
         "firstVersion": "v2.5.2",
         "lastVersion": "v2.7.12",
         "description": "The long-awaited sequel!"
+    },
+    {
+        "id": "amalgam-raid",
+        "title": "Raid Battles",
+        "category": "olddfc",
+        "access": ["Save Editing"],
+        "firstVersion": "v2.0.0",
+        "lastVersion": "v2.7.13",
+        "description": "FFA-like boss fight events, left over from when v2.0.0 was still called v1.4.0"
     }
 ]
