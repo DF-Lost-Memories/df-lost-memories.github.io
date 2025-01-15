@@ -3,7 +3,8 @@
         "date": "2024-11-22",
         "additions": [
             "Added changelog",
-            "Added Discord link"
+            "Added Discord link",
+            "Added tab titles to some pages"
         ],
         "changes": [
             "Changed navbar layout to move some items to the right"
@@ -13,6 +14,16 @@
         "date": "2024-11-24",
         "additions": [
             "New article: <a href=\"/article.html?id=amalgam-raid\" style=\"color:var(--olddfc)\">Raid Battles</a>"
+        ]
+    },
+    {
+        "date": "2025-01-15",
+        "additions": [
+            "Resources: Added links to my sound list and Memories of DFC"
+        ],
+        "changes": [
+            "Changelog: Tweaked layout",
+            "<span title=\"I need to make this automatic at some point...\">Updated mentions of the latest version to v2.7.14</span>"
         ]
     }
 ]

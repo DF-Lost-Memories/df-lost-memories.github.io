@@ -2,9 +2,11 @@ export async function generateChangelog() {
     let _changelog = await fetch('/assets/changelog.json')
         .then(response => response.json())
         .catch(error => console.error('Error fetching changelog: ', error))
-    _changelog.reverse().forEach(update => {
+    _changelog.reverse().forEach((update, i) => {
         // never EVER cook again
-        document.querySelector(".changelog").innerHTML += `<div class="date-${update.date}"><h1>${update.date} update</h1></div>`
+        if (i != 0)
+            document.querySelector(".changelog").innerHTML += `<hr>`
+        document.querySelector(".changelog").innerHTML += `<div class="date-${update.date}"><h2>${update.date} update</h2></div>`
         if ("additions" in update) {
             document.querySelector(`.changelog .date-${update.date}`).innerHTML += 
             `
