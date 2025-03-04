@@ -41,7 +41,7 @@
         "category": "newdfc",
         "access": ["Sound Editing", "Map Editor"],
         "firstVersion": "v2.7.9c",
-        "lastVersion": "v2.7.14",
+        "lastVersion": "v2.7.14c",
         "description": "A DF remix of Flowey's theme, which is not used for Racer!Flowey for some reason"
     },
     {
@@ -50,7 +50,7 @@
         "category": "olddfc",
         "access": ["Save Editing"],
         "firstVersion": "v2.0.0",
-        "lastVersion": "v2.6.1 (vessel), v2.7.11 (partner)",
+        "lastVersion": "v2.6.1 (vessel), v2.7.14c (partner)",
         "description": "He's been fully playable for a LONG time now"
     },
     {
@@ -147,5 +147,14 @@
         "firstVersion": "v2.0.0",
         "lastVersion": "v2.7.13",
         "description": "FFA-like boss fight events, left over from when v2.0.0 was still called v1.4.0"
+    },
+    {
+        "id": "unused-hometown-rooms",
+        "title": "Unused Hometown rooms",
+        "category": "chapter1",
+        "access": ["Save Editing"],
+        "firstVersion": "v1.3.3",
+        "lastVersion": "v1.3.3",
+        "description": "Spin-off in the critically-acclaimed unused Ruins rooms series"
     }
 ]

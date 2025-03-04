@@ -1,0 +1,287 @@
+==== DFC Audio Groups Sound List (v2.7.14b/c) ====
+
+when i put a question mark it means i don't know where it plays so it's probably unused
+  -hflyer
+
+=== audiogroup1.dat (Music) ===
+0: Alpha Ruins [Lost World 1]
+1: Alternate Medium [Hotland]
+2: Ambient water [Waterfall, in some rooms without music]
+3: Anticipation [Dummy battle]
+4: April 2012 [?]
+5: Arcade Vibes [Arcade menu]
+6: FLUFFYBUNS [Asgore PvP]
+7: Barrier [?]
+8: Enemy Approaching [?]
+9: A really slowed down version of Rebirth [?]
+10: Throne Room ambience [same as 137... not sure which is used where]
+11: Undying Bloodlust [Chara PvP]
+12: Bonetrousle [?]
+13: Shattered but Standing ["Generic" PvP, Grand Theft Harlow VR]
+14: Bullet Hell [FFA]
+15: Calamari! Splat2D Mix [VIP Room, Splat2D boss fight]
+16: In the Castle Walls [Card Castle]
+17: Mysterious Cave [Chapter 1 - Cave]
+18: Chaos King [King PvP]
+19: Be Brave! [Lonely Girl PvP]
+20: Checker Dance [C. Round PvP]
+21: Church bells [getting an ending]
+22: Same as above but lower pitch
+23: Home [?]
+24: At The World's CORE [CORE]
+25: CORE Approach (Remix) [Hotel Exit]
+26: Defied Fate [Credits]
+27: Dark Theovania [Underfell Sans PvP]
+28: Death by Glamour [Mettaton PvP]
+29: After School [School]
+30: Doge Approaching [Annoying Dog PvP]
+31: Dreamscape [Papyrus's shed]
+32: Chapter 1 - But nobody came.
+33: ENCORE [Omori PvP] (Looping part)
+34: ENCORE (Intro)
+35: ENCORE (Full)
+36: What I've Done [Alphys's Lab, Hall of Fame]
+37: Eyes Ablaze [Quote PvP]
+38: The Village [Flower Village]
+39: The Field of Hopes and Dreams [Field]
+40: Forgotten Lab [Chapter 1 - Forgotten Lab, unused Online Labs]
+41: Fated Encounter [Normal battle]
+42: GADOBADORRER [Varik PvP]
+43: Sealed Fate [Game Over]
+44: Error Integer [Gasterbot battle]
+45: Return to the Void [Lost World 3]
+46: Blooky's Hit Single [Napstablook PvP]
+47: Green Room [Green Room]
+48: Lazybones [Sans's house, Waterfall checkpoint]
+49: Heartache [Toriel PvP]
+50: Heartburn [Foul Monster battle]
+51: He Follows [Harlow PvP]
+52: Here We Are [True Lab]
+53: Histrousle [Alter Asriel PvP]
+54: Holiday Spirit [Noelle PvP]
+55: Where the Heart Is [Kris's house]
+56: Hometown Reprise [Hometown]
+57: Hopes and Dreams [Asriel PvP]
+58: This Is A Nice Hotel They Play Jazz Here [MTT Resort]
+59: Infatuation [Frisk PvP]
+60: Vs Rouxls [Rouxls Kaard PvP]
+61: Komm, süßer Tod [VIP Room with Misato]
+62: Vs. Lancer [Lancer PvP]
+63: Last Megalo [Joker PvP, normal battles as Joker]
+64: Mad Mew Mew [Mew Mew PvP]
+65: Bad Dream [Madotsuki PvP]
+66: A really slowed down version of man.ogg [?]
+67: MEGALOVANIA [?]
+68: Forgotten Memory [Main menu]
+69: Metal Crusher [Alphys PvP]
+70: Moody Nightlight [Mandarina battle]
+71: On The Horizon [Chapter 1 - Mountain]
+72: Long Way From Home [New Home]
+73: Uwa!! So Nighttime! [Hidden Schoolyard]
+74: Nyeh Heh Heh! [?]
+75: Into The Void [Lost World 2]
+76: My Time [Old Omori PvP]
+77: Ooo [Hotland ambience around the lab]
+78: Chapter 1 - Surface ambience
+79: Pathetic House [Napstablook's house]
+80: Bullet Hell [?] (this is the same as 14 but unused)
+81: Corrupted Hands [FFA menu]
+82: Autumn Breeze [Some of Scarlet Forest]
+83: Old warp menu ambience
+84: Rain [Flower Village]
+85: Rebirth [Chapter 1 - Intro]
+86: Shop [Snowdin bank, unused since v2.7.11]
+87: Action [Remedy PvP]
+88: Rickstercraft [Minecrap]
+89: Vs Bad Tom [Bad Tom battle]
+90: Rise To The Top [PvP Room]
+91: Hotel Dogsong [Admin Vibe]
+92: Rude Buster X [Normal battle in Card Kingdom, generic Deltarune PvP]
+93: Ruins Reprise [Ruins]
+94: Beneath the Scarlet Leaves [Scarlet Forest]
+95: Our Home [Toriel's house]
+96: Checkout [Vending machines, Undyne's house]
+97: A really slowed down version of Shop [Gerson's shops from DF Classic...?]
+98: Grillbz [Grillby's]
+99: TEM BOP [Tem Shop, Temmie PvP]
+100: It's Showtime! [Mettaton's house]
+101: Silent Flow [Waterfall]
+102: Scientocracy of Gamers (with Nipples) [Berdly PvP]
+103: Snow Place Like Home [Snowdin Town]
+104: Chilly [Snowdin]
+105: Strike You Down [Undyne PvP]
+106: Spider Dance [Muffet PvP]
+107: Splattack! Splat2D Mix [Splat2D]
+108: Sretsnom Regnarts [Lost World 3 battle]
+109: THE NEXT [Potential upcoming intro]
+110: Stranger Monsters [Lost World 1/2 battle]
+111: Stronger Monsters [?]
+112: Hometown [Grand Theft Harlow VR (alternate)]
+113: Sweet Victory [Splat2D - Victory]
+114: TEM CHILLAGE [Temmie Village]
+115: That Comedian [Sans PvP]
+116: Thundersnail [Thundersnail]
+117: TEM CHILLAGE (but slightly distorted) [Temmie Village except all the Temmies are facing the opposite direction (random chance when you enter the room)]
+118: ???
+119: Trousle of Bones [Papyrus PvP, Dance Dance Spaghetti]
+120: Seek The Ultimate Power [PvP Room at rank A or higher]
+121: A really slowed down version of Adventure's End by RickyG [Doge World (unused)]
+122: Dark [Chapter 1 - Wormhole level]
+123: Vs The Messiah [Niko PvP]
+124: Vs. Susie [Susie PvP]
+125: Weird Birds [First room of Field]
+126: Battle Against a Weird Opponent [EarthBound PvP]
+127: A muffled version of Long Way From Home [Flowey's intro in older versions]
+128: Wind ambience [Great Board]
+129: DF Classic menu theme [?]
+130: Yiiklovania [VIP Room with Alex, normal battles as Alex]
+131: Your Best Friend [UnderRacer Flowey PvP]
+132: Your Best Friend (Remix) [Upcoming?]
+133: A pitched down version of Your Best Friend [?]
+134: A CORRUPTION APPROACHES
+135: Darknernet jingle
+136: Garbage noise
+137: Throne Room ambience [same as 10... not sure which is used where]
+138: Undernet jingle
+139: Asriel - "Hey! Don't cry about losing!" [Game Over]
+140: Asriel - "Like my best friend used to tell me:" [Game Over]
+141: Asriel - "You've just gotta, um..." [Game Over]
+142: Asriel - "Suck it up and try again!" [Game Over]
+143: Chara - "That was one of the most pathetic things I have ever seen." [Game Over]
+144: Chara - "I thought you were better than that." [Game Over]
+145: Flowey - "What was THAT?" [Game Over]
+146: Flowey - "Oh... Oh wow, that was genuinely pathetic." [Game Over]
+147: Flowey - "Do you even know what you're doing?" [Game Over]
+148: Papyrus - "Welcome... to DANCE DANCE SPAGHETTI! NYEH HEH HEH HEH HEH HEH HEH HEH! ...I'm still thinking of a better name."
+149: Papyrus - "I BELIEVE IN YOU, HUMAN!" [Game Over]
+150: Papyrus - "YOU CAN'T GIVE UP JUST YET!" [Game Over]
+151: Sans - "welp." [Game Over]
+152: Sans - "looks like you bit off more than you could chew, huh?" [Game Over]
+153: Toriel - "My child, you did your best." [Game Over]
+154: Toriel - "Get back on your feet and try again!" [Game Over]
+155: Toriel - "Learning from your mistakes builds character!" [Game Over]
+===============================
+
+
+=== audiogroup2.dat (Sound Effects) ===
+== SPEECH BLIPS ==
+0: Alphys
+1: Asgore
+2: Asriel
+10: Berdly
+34: Annoying Dog
+42: Flowey
+43: Flowey (evil)
+44: Flowey again
+54: Jevil
+55: King
+56: Lancer
+59: Mettaton
+62: EarthBound vessels
+63: Niko
+64: Noelle
+72: Omori
+75: Papyrus
+76: Generic
+77: Battle results
+79: Queen
+80: Quote
+81: Ralsei
+86: Sans
+102: Susie
+104: Temmie
+105: Toriel
+107: Undyne
+116: Niko (World Machine)
+
+== LITERALLY EVERYTHING ELSE ==
+3: Multi reticle - All crits (OLD, unused as of v2.7.14)
+4: Rapid fire - Crit
+5: Multi reticle - Crit
+6: Multi reticle - Hit
+7: GTH - Car explode
+8: Final Froggit big laser warning
+9: Befriend
+11: Laser, but not Final Froggit?
+12: snd_bike.ogg (Sans's bike)
+13: Blip (moving through menus)
+14: Skill (Empower, Barrier)
+15: Buy
+16: Can't select (like in menus)
+17: GTH - 5th gear
+18: GTH - Idle
+19: GTH - Moving
+20: GTH - Stop
+21: Click (battle transition, lasers activating and more)
+22: Door (?)
+23: Earn (get undercoins, gachapog)
+24: Partner consumes an item
+25: Enemy takes damage
+26: Enter dark world
+27: Enter Hometown
+28: Exit dark world
+29: Skill (TurnRush)
+30: HUGE laser (Final Froggit)
+31: Dust (enemy death, vent)
+32: Soul breaks
+33: Arcade death (Splat2D, Thundersnail, FFA?)
+35: Victory fanfare (after flushing)
+36: Encounter
+37: Encounter, but the silence at the end is shorter (this is used after LV 20 to make battles start faster)
+38: Fake solid, Splat2D enemy death
+39: Equip, get and use silver key
+40: Explosion (Tsunderplane death)
+41: Flee
+45: Flush
+46: FFA - Weapon upgrade, Splat2D - Victory
+47: Ice break (Ice Cap attack)
+48: Glitch
+49: Graze
+50: FFA - Reloaded
+51: Single reticle - Crit
+52: Soul takes damage
+53: Title (when the game logo appears)
+57: LV/rank up
+58: Act (when you get mercy bar points)
+60: Rapid fire - Hit
+61: Gaster disappear
+65: Splat2D - Boss death
+66: Ominous (enough LV to proceed)
+67: Not ominous (befriended all monsters in area, trial quest complete)
+68: Omori - Heal
+69: Omori - Damage enemy
+70: Omori - Interact with save point (same sound as 60)
+71: Omori - Save
+73: Door
+74: Deltarune chest (?) (idk if it plays for the weapon/armor chests)
+78: Puzzle piece
+82: FFA - Reloading
+83: Chapter 1 - Rebirth
+84: Splat2D - Dash
+85: Multi reticle - All crits
+87: Heal/interact with save point/skill (GrazeUp, InvulnUp)
+88: Save
+89: Select
+90: Soul shatters
+91: Shoot (?)
+92: FFA - Shoot (1 bullet)
+93: FFA - Shoot (2 bullets)
+94: FFA - Shoot (3 bullets)
+95: Minecrap shotgun
+96: Slam (i only remember it from that Final Froggit attack)
+97: Chapter 1 - Main menu transition
+98: Blocked attack
+99: FFA - Can't shoot, Minecrap - Creeper death, Splat2D - Damage
+100: Starwalker star
+101: Battle start
+103: Slash (attack sound, also that fighting type knife attack)
+106: Undernet (not jingle)
+108: Gaster disappear remix (enter save file, respawn)
+109: All puzzle pieces collected
+110: Chapter 1 - Wormhole transition
+111: Warp
+112: Whimsalot's warning sound (unused since 2.7.10c)
+113: DF Classic warp start (???)
+114: DF Classic warp end (???)
+115: Step in water
+=======================================

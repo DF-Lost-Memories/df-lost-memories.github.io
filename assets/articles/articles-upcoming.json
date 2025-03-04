@@ -28,14 +28,5 @@
         "firstVersion": "v0.1.5",
         "lastVersion": "v0.1.5",
         "description": "A compilation of all of the unused wormhole levels"
-    },
-    {
-        "id": "unused-hometown-rooms",
-        "title": "Unused Hometown rooms",
-        "category": "chapter1",
-        "access": ["Save Editing", "Noclip"],
-        "firstVersion": "v1.3.3",
-        "lastVersion": "v1.3.3",
-        "description": "Spin-off in the critically-acclaimed unused Ruins rooms series"
     }
 ]

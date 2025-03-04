@@ -25,5 +25,16 @@
             "Changelog: Tweaked layout",
             "<span title=\"I need to make this automatic at some point...\">Updated mentions of the latest version to v2.7.14</span>"
         ]
+    },
+    {
+        "date": "2025-03-04",
+        "additions": [
+            "New article: <a href=\"/article.html?id=unused-hometown-rooms\" style=\"color:var(--chapter1)\">Unused Hometown Rooms</a>",
+            "Resources: <span title=\"Replaced the old one again award\">v2.7.14b/c sound list</span>"
+        ],
+        "changes": [
+            "<a href=\"/article.html?id=new-flowey-theme\" style=\"color:var(--newdfc)\">Your Best Friend Remix</a>: Updated to v2.7.14c",
+            "<span title='I still need to make this \"automatic\"'>Updated mentions of the latest version to v2.7.14c</span>"
+        ]
     }
 ]
