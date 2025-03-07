@@ -28,5 +28,14 @@
         "firstVersion": "v0.1.5",
         "lastVersion": "v0.1.5",
         "description": "A compilation of all of the unused wormhole levels"
+    },
+    {
+        "id": "papyrus-battle-dialogue",
+        "title": "Papyrus Battle Dialogue",
+        "category": "newdfc",
+        "access": ["Strings"],
+        "firstVersion": "v2.7.14c",
+        "lastVersion": "v2.7.14c",
+        "description": "All of the dialogue I could find related to the scrapped Papyrus boss battle from v2.5.0 (?)"
     }
 ]

@@ -1,3 +1,5 @@
+@font-face { font-family: Determination Mono; src: url('/assets/DeterminationMono.ttf'); }
+
 :root {
     --hflyer: #ff0076;
     --moriyx: #bfbfef;
@@ -65,4 +67,13 @@ img.pixelperfect, img.textbox {
 
 .grid-article h3, .grid-article p {
     margin: 2%;
+}
+
+.determination, .determination * {
+    font-family: Determination Mono;
+    white-space: pre-wrap;
+}
+
+video, iframe {
+    border: 1px solid white;
 }

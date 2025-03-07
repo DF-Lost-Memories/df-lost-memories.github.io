@@ -1,14 +1,5 @@
 [
     {
-        "id": "ruins-gate",
-        "title": "Ruins Gate Interaction",
-        "category": "newdfc",
-        "access": ["Noclip"],
-        "firstVersion": "v2.5.2",
-        "lastVersion": "v2.7.12",
-        "description": "Originally meant for when Mandarina was going to be the main boss of the Ruins"
-    },
-    {
         "id": "old-gaster-meeting",
         "title": "Gaster's Old Introduction",
         "category": "chapter1",
@@ -19,7 +10,7 @@
     },
     {
         "id": "innervoid-2.5d-game",
-        "title": "Inner Void Minigame (2.5D)",
+        "title": "2.5D Soul Piece Levels",
         "category": "olddfc",
         "access": ["Save Editing"],
         "firstVersion": "v2.0.0",
@@ -28,12 +19,13 @@
     },
     {
         "id": "unused-ruins-rooms",
-        "title": "Unused Ruins rooms",
+        "title": "Unused Ruins Rooms",
         "category": "olddfc",
         "access": ["Save Editing"],
         "firstVersion": "v2.0.0",
         "lastVersion": "v2.4.3b",
-        "description": "A pair of two scrapped puzzles, one of them still functional"
+        "description": "A pair of two scrapped puzzles, one of them still functional",
+        "seeAlso": ["unused-ruins-rooms-2", "unused-hometown-rooms"]
     },
     {
         "id": "new-flowey-theme",
@@ -42,7 +34,8 @@
         "access": ["Sound Editing", "Map Editor"],
         "firstVersion": "v2.7.9c",
         "lastVersion": "v2.7.14c",
-        "description": "A DF remix of Flowey's theme, which is not used for Racer!Flowey for some reason"
+        "description": "A DF remix of Flowey's theme meant for his cutscenes in a scrapped story",
+        "seeAlso": ["dfc-story-dialogue"]
     },
     {
         "id": "jevil",
@@ -50,7 +43,7 @@
         "category": "olddfc",
         "access": ["Save Editing"],
         "firstVersion": "v2.0.0",
-        "lastVersion": "v2.6.1 (vessel), v2.7.14c (partner)",
+        "lastVersion": "v2.7.14c",
         "description": "He's been fully playable for a LONG time now"
     },
     {
@@ -132,12 +125,13 @@
     },
     {
         "id": "unused-ruins-rooms-2",
-        "title": "More unused Ruins rooms",
+        "title": "More Unused Ruins Rooms",
         "category": "newdfc",
         "access": ["Save Editing"],
         "firstVersion": "v2.5.2",
         "lastVersion": "v2.7.12",
-        "description": "The long-awaited sequel!"
+        "description": "The long-awaited sequel!",
+        "seeAlso": ["unused-ruins-rooms", "unused-hometown-rooms"]
     },
     {
         "id": "amalgam-raid",
@@ -150,11 +144,22 @@
     },
     {
         "id": "unused-hometown-rooms",
-        "title": "Unused Hometown rooms",
+        "title": "Unused Hometown Rooms",
         "category": "chapter1",
         "access": ["Save Editing"],
         "firstVersion": "v1.3.3",
         "lastVersion": "v1.3.3",
-        "description": "Spin-off in the critically-acclaimed unused Ruins rooms series"
+        "description": "Spin-off in the critically-acclaimed Unused Ruins Rooms series",
+        "seeAlso": ["unused-ruins-rooms", "unused-ruins-rooms-2"]
+    },
+    {
+		"id": "dfc-story-dialogue",
+		"title": "v2.5.0 Story Dialogue",
+		"category": "newdfc",
+		"access": ["Strings", "Noclip"],
+		"firstVersion": "v2.5.2",
+		"lastVersion": "v2.7.14c",
+		"description": "Lines of dialogue left over from a scrapped story for DFC",
+        "seeAlso": ["new-flowey-theme"]
     }
 ]

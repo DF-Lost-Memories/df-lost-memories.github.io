@@ -1,0 +1,55 @@
+<p>As shown in the <a href="https://gamejolt.com/p/february-2021-progress-report-read-inside-for-new-feature-wkwfbwcy" target="_blank">February 2021 Progress Report</a>, DF CONNECTED v2.5.0 was meant to launch with a playable story. This obviously never came to be, but lines of dialogue were still left over in the code.</p>
+<p>While I originally discovered these while looking through the game's strings, it turns out a lot of them are accessible in older versions by going out of bounds!</p>
+<center>
+    <h2>Flowey (main quest)</h2>
+    <div class="three-columns">
+        <div>
+            <h3>First meeting</h3>
+            <p>This can be accessed in the Flowey room by going out of bounds to the right. A variant of the dialogue can be seen by triggering the interaction from above.</p>
+            <video src="flowey1.mp4" controls></video>
+            <video src="flowey1.5.mp4" controls></video>
+            <iframe src="flowey1.html" width="90%" height="480px" class="textdisplay"></iframe>
+        </div>
+        <div>
+            <h3>Second meeting</h3>
+            <p>This can be accessed in front of Toriel's house, again to the right out of bounds, but only after triggering the first meeting.</p>
+            <video src="flowey2.mp4" controls></video>
+            <iframe src="flowey2.html" width="90%" height="480px" class="textdisplay"></iframe>
+        </div>
+        <div>
+            <h3>Third meeting</h3>
+            <p>This isn't accessible ingame, but it probably would've taken place at the same spot as the second meeting after defeating Mandarina.</p>
+            <iframe src="flowey3.html" width="90%" height="480px" class="textdisplay"></iframe>
+        </div>
+    </div>
+    <h2>Others</h2>
+    <div class="three-columns">
+        <div>
+            <h3>Blocked by strings</h3>
+            <p>One of these interactions is placed behind the gate that goes to the Ruins from Snowdin.<br>The others are meant to be in front of Toriel's house (see the video about the second Flowey interaction).</p>
+            <video src="ruins-gate.mp4" controls></video>
+            <p>This is the only out of bounds interaction on this page that's still accessible today.</p>
+            <p>Fun fact: Before it was added to this page, this interaction was also the first article on the website!</p>
+        </div>
+        <div>
+            <h3>Random silkworm</h3>
+            <p>This is triggered out of bounds in the Lone Hall room.</p>
+            <video src="silkworm.mp4" controls></video>
+            <iframe src="silkworm.html" width="90%" height="480px" class="textdisplay"></iframe>
+        </div>
+        <div>
+            <h3>Flowey again</h3>
+            <p>This may be left over from BEFORE v2.5.0, as it seems to be related to the Master Quest... who knows?</p>
+            <iframe src="flowey0.html" width="90%" height="480px" class="textdisplay"></iframe>
+        </div>
+    </div>
+</center>
+<style>
+    .three-columns {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 1%;
+        width: 100%;
+        margin: 0;
+    }
+</style>

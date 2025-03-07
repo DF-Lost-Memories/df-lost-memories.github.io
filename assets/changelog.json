@@ -36,5 +36,21 @@
             "<a href=\"/article.html?id=new-flowey-theme\" style=\"color:var(--newdfc)\">Your Best Friend Remix</a>: Updated to v2.7.14c",
             "<span title='I still need to make this \"automatic\"'>Updated mentions of the latest version to v2.7.14c</span>"
         ]
+    },
+    {
+        "date": "2025-03-07",
+        "additions": [
+            "New article: <a href=\"/article.html?id=dfc-story-dialogue\" style=\"color:var(--newdfc)\">v2.5.0 Story Dialogue</a>",
+            "Added a \"See also\" section to some articles"
+        ],
+        "changes": [
+            "<a href=\"/article.html?id=innervoid-2.5d-game\" style=\"color:var(--olddfc)\">2.5D Soul Piece Levels</a>: Various nondescript changes",
+            "<a href=\"/article.html?id=new-flowey-theme\" style=\"color:var(--newdfc)\">Your Best Friend Remix</a>: Updated with info from the new article",
+            "Adjusted the names of a few articles to use consistent casing",
+            "Videos now have a white outline"
+        ],
+        "removals": [
+            "The \"Ruins Gate Interaction\" article, as it was merged into <a href=\"/article.html?id=dfc-story-dialogue\" style=\"color:var(--newdfc)\">v2.5.0 Story Dialogue</a>"
+        ]
     }
 ]

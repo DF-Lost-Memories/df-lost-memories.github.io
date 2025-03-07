@@ -15,11 +15,28 @@ document.addEventListener('DOMContentLoaded', async () => {
             articleContainer.innerHTML = ""
             articleContainer.appendChild(generateFullHeader(articleJSON))
             articleContainer.innerHTML += article
-            const media = document.querySelectorAll("img:not(.textbox), video, audio")
+            const media = document.querySelectorAll("img:not(.textbox), video, audio, iframe.textdisplay")
             media.forEach(element => {
                 element.src = `/assets/articles/${id}/${getsrc(element.src)}`
             })
             generateTextboxes()
+            if ("seeAlso" in articleJSON) {
+                articleContainer.innerHTML += "<hr>"
+                const seeAlsoP = document.createElement("p")
+                seeAlsoP.innerHTML = "See also: "
+                articleJSON.seeAlso.forEach(async (id, i) => {
+                    let seeAlsoArticle
+                    await getArticleFromID(id).then(json => {
+                        seeAlsoArticle = json
+                    })
+                    let seeAlsoA = document.createElement("a")
+                    seeAlsoA.innerHTML += `<a href="article.html?id=${id}" style="color:var(--${seeAlsoArticle.category})">${seeAlsoArticle.title}</a>`
+                    seeAlsoP.appendChild(seeAlsoA)
+                    if (i != articleJSON.seeAlso.length - 1)
+                        seeAlsoP.innerHTML += ", "
+                })
+                articleContainer.appendChild(seeAlsoP)
+            }
         })
 })
 
@@ -84,6 +101,9 @@ function generateAccessHeader(access) {
                 break
             case "Sound Editing":
                 title = "Looking through the game's audiogroup1.dat and audiogroup2.dat files to find unused music or sound effects."
+                break
+            case "Strings":
+                title = "Looking through the game's .exe file in a text editor to find unused lines of text.\nThis only works with versions after v2.7.10b, when the game started being compiled with YYC."
                 break
         }
         methodSpan.title = title
