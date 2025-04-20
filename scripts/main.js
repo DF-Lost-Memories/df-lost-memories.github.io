@@ -4,12 +4,18 @@ import { generateTextboxes } from "/scripts/textbox.js"
 import { generateUpcoming, generateChangelog } from "/scripts/upcoming.js"
 
 document.addEventListener('DOMContentLoaded', () => {
+    if (localStorage.getItem("theme") == "light") {
+        theme(1)
+    } else if (localStorage.getItem("theme") == "dark") {
+        theme(0)
+    }
     document.querySelector('header').innerHTML = 
-    `<h1>DF: Lost Memories</h1>
+    `<center><h1>DF: Lost Memories</h1>
     <p>DONTFORGET's cutting room floor</p>
-    <hr>
-    <a href="index.html">Home</a> | <a href="list.html">Unused Content List</a> | <a href="resources.html">Resources</a> | <a href="upcoming.html">Upcoming Articles</a><span style="float:right"><a href="about.html">About</a> | <a href="changelog.html">Changelog</a> | <a href="https://discord.gg/gCJgc83N" target="_blank">Discord</a> | <a href="/demo2/index.html" style="color:var(--demo2);">Switch to Lost Timelines</a></span>
-    <hr>`
+    <nav>
+    <a href="index.html">Home</a> <a href="list.html">Unused Content List</a> <a href="resources.html">Resources</a> <a href="upcoming.html">Upcoming Articles</a> <a href="about.html" class="right">About</a> <a href="changelog.html">Changelog</a> <a href="https://discord.gg/BufyX2gqkq" target="_blank">Discord</a> <a href="javascript:toggleTheme()">Change Theme</a> <a href="/demo2/index.html" class="purple">Lost Timelines</a>
+    </nav>
+    </center>`
 
     document.querySelector('footer').innerHTML =
     `<hr>

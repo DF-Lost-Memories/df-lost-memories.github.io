@@ -6,11 +6,12 @@ document.addEventListener('DOMContentLoaded', () => {
     const sillymessages = ["demo 2 deserves a whole website of its own", "at this point my website should be called lost timelines the way more than half of it is about demo 2", "remember when i said demo 2 deserved its own website for unused content"]
     const sillymessage = sillymessages[Math.floor(Math.random() * sillymessages.length)];
     document.querySelector('header').innerHTML = 
-    `<h1>DF: Lost Timelines</h1>
+    `<center><h1>DF: Lost Timelines</h1>
     <p style="color: var(--hflyer)">"${sillymessage}" -hflyer</p>
-    <hr>
-    <a href="index.html">Home</a><span style="float:right"><a href="about.html">About</a> | <a href="changelog.html">Changelog</a> | <a href="https://discord.gg/gCJgc83N" target="_blank">Discord</a> | <a href="/index.html" style="color:skyblue;">Switch to Lost Memories</a></span>
-    <hr>`
+    <nav>
+    <a href="index.html" class="purple">Home</a> <a href="about.html" class="right purple">About</a> <a href="changelog.html" class="purple">Changelog</a> <a href="https://discord.gg/BufyX2gqkq" target="_blank" class="purple">Discord</a> <a href="javascript:toggleTheme()" class="purple">Change Theme</a> <a href="/index.html">Lost Memories</a></span>
+    </nav>
+    </center>`
 
     document.querySelector('footer').innerHTML =
     `<hr>

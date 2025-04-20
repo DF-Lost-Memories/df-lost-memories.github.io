@@ -6,7 +6,7 @@
 </center>
 <div class="two-columns">
     <div>
-        <h2>In the normal state</h2>
+        <h3>In the normal state</h3>
         <img src="normalflower.png" alt="Flowey">
         <p>Checking or sparing him progresses the fight normally.</p>
         <p>Missing an attack or using an item will cause him to react with special lines, but won't progress the fight.</p>
@@ -17,7 +17,7 @@
         <p>Flowey can be killed or spared when he is sparing the player.</p>
     </div>
     <div>
-        <h2>In the angry state</h2>
+        <h3>In the angry state</h3>
         <img src="angryflower.png" alt="Angry Flowey">
         <p>The music is pitched down.</p>
         <p>Flowey uses a faster version of the attack pattern from his normal state.</p>
@@ -30,7 +30,7 @@
 <p>(Note: "Turn" in the next sections only refers to turns where the battle progresses, aka when the player checks or spares)</p>
 <div class="two-columns">
     <div style="text-align: left;">
-        <h2 style="text-align: center;">Normal quotes</h2>
+        <h3 style="text-align: center;">Normal quotes</h3>
         <ul>
             <li>... <b>[Attacking, but dealing 0 damage]</b></li>
             <li>Why are you doing that? I won't hurt you. <b>[Using an item]</b></li>
@@ -91,7 +91,7 @@
         </ul>
     </div>
     <div style="text-align: left;">
-        <h2 style="text-align: center;">Angry quotes</h2>
+        <h3 style="text-align: center;">Angry quotes</h3>
         <ul>
             <li>... <b>[When not attacked]</b></li>
             <li>Healing? Ha! What a weakling! <b>[Using an item]</b></li>
@@ -116,7 +116,7 @@
     </div>
 </div>
 <div class="lone-column">
-    <h2>Flavor Text</h2>
+    <h3>Flavor Text</h3>
     <ul>
         <li>Your new best friend! <b>[Check]</b></li>
         <li>You encounter Flowey! <b>[Turn 1]</b></li>
@@ -135,7 +135,7 @@
     }
     .two-columns div {
         display: inline-block;
-        border-color: white;
+        border-color: var(--text);
         border-style: solid;
         text-align: center;
         width: auto;
@@ -144,7 +144,7 @@
     }
     .lone-column {
         display: inline-block;
-        border-color: white;
+        border-color: var(--text);
         border-style: solid;
         text-align: center;
         box-sizing: border-box;

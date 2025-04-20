@@ -52,5 +52,21 @@
         "removals": [
             "The \"Ruins Gate Interaction\" article, as it was merged into <a href=\"/article.html?id=dfc-story-dialogue\" style=\"color:var(--newdfc)\">v2.5.0 Story Dialogue</a>"
         ]
+    },
+    {
+        "date": "2025-04-20",
+        "additions": [
+            "Light theme!"
+        ],
+        "changes": [
+            "Little visual refresh thing",
+            "The site is now <em>slightly</em> more mobile-friendly",
+            "Articles in the home page have a hover effect",
+            "Text with extra info now has a <span title=\"Instead of a dotted one!\">dashed outline</span>",
+            "Fixed Discord link"
+        ],
+        "removals": [
+            "The music player in the home page"
+        ]
     }
 ]

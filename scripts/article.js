@@ -15,7 +15,7 @@ document.addEventListener('DOMContentLoaded', async () => {
             articleContainer.innerHTML = ""
             articleContainer.appendChild(generateFullHeader(articleJSON))
             articleContainer.innerHTML += article
-            const media = document.querySelectorAll("img:not(.textbox), video, audio, iframe.textdisplay")
+            const media = document.querySelectorAll("img:not(.textbox):not(#logo), video, audio, iframe.textdisplay")
             media.forEach(element => {
                 element.src = `/assets/articles/${id}/${getsrc(element.src)}`
             })
@@ -60,7 +60,7 @@ async function getArticleFromID(id) {
 
 function generateFullHeader(article) {
     const center = document.createElement("center")
-    center.innerHTML = `<h1>${article.title}</h1><hr>`
+    center.innerHTML = `<h2>${article.title}</h2><hr>`
     const text = document.createElement("p")
     text.appendChild(generateCategoryHeader(article.category))
     if ("firstVersion" in article) {
