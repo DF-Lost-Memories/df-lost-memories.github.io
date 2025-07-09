@@ -68,5 +68,14 @@
         "removals": [
             "The music player in the home page"
         ]
+    },
+    {
+        "date": "2025-07-09",
+        "additions": [
+            "Resources: v2.7.15 sound list"
+        ],
+        "changes": [
+            "<span title='It&apos;s finally \"automatic\"!'>Updated mentions of the latest version to v2.7.15</span>"
+        ]
     }
 ]

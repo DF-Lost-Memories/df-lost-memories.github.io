@@ -9,6 +9,8 @@ document.addEventListener('DOMContentLoaded', () => {
     } else if (localStorage.getItem("theme") == "dark") {
         theme(0)
     }
+    if (document.querySelector('.latest-ver') != null)
+        document.querySelector('.latest-ver').innerHTML = "v2.7.15"
     document.querySelector('header').innerHTML = 
     `<center><h1>DF: Lost Memories</h1>
     <p>DONTFORGET's cutting room floor</p>
