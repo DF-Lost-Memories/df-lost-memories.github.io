@@ -32,7 +32,7 @@ when i put a question mark it means i don't know where it plays so it's probably
 25: At The World's CORE [CORE]
 26: CORE Approach (Remix) [Hotel Exit]
 27: Defied Fate [Credits]
-28: Cliffs [TV World - Couch Cliffs]
+28: Cliffs [?]
 29: Fireplace [Gerson's Study]
 30: Dark Theovania [Underfell Sans PvP]
 31: Death by Glamour [Mettaton PvP]
@@ -61,7 +61,7 @@ when i put a question mark it means i don't know where it plays so it's probably
 54: Heartburn [Foul Monster battle]
 55: He Follows [Harlow PvP]
 56: Here We Are [True Lab]
-57: Wind [? - it was added in v2.7.15]
+57: Wind [TV World - Couch Cliffs]
 58: Histrousle [Alter Asriel PvP]
 59: Gingerbread House [Noelle's House]
 60: Holiday Spirit [Noelle PvP]
@@ -293,7 +293,7 @@ when i put a question mark it means i don't know where it plays so it's probably
 107: FFA - Shoot (3 bullets)
 108: Minecrap shotgun
 109: Slam (i only remember it from that Final Froggit attack)
-110: Erasing a save file
+110: Importing a save file in Offline Mode
 111: Chapter 1 - Main menu transition
 112: Blocked attack
 113: FFA - Can't shoot, Minecrap - Creeper death, Splat2D - Damage
