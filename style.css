@@ -2,7 +2,7 @@
 
 :root {
     --hflyer: #ff0076;
-    --moriyx: #bfbfef;
+    --moriyx: #fca41c;
     --rickyg: #2cf5bb;
     --chapter1: #d535d9;
     --olddfc: #3a6794;
@@ -11,18 +11,22 @@
     --bg: #090606;
     --text: white;
     --link: skyblue;
+    --shadow: none;
 }
 
 :root[data-theme="light"] {
-    --bg: #f9f6f6;
+    --bg: #e3ebec;
     --text: black;
     --link: #277ecd;
+    --rickyg: #32cd99;
+    --moriyx: #fca41c;
 }
 
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: var(--bg);
     color: var(--text);
+    text-shadow: var(--shadow);
 }
 
 footer p {

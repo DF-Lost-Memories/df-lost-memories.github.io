@@ -21,7 +21,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     document.querySelector('footer').innerHTML =
     `<hr>
-    <p>Website by <span style="color: var(--hflyer)">hflyer</span> | Inspired by <a style="color: var(--moriyx)" href="https://dfc-moriyx.neocities.org/" target="_blank">DFC MORIYX</a> | Not affiliated with <span style="color: var(--rickyg)">RickyG</span> and the <span style="color: var(--chapter1)">DONTFORGET</span> team</p>`
+    <p>Website by <span style="color: var(--hflyer)">hflyer</span> | Inspired by <a style="color: var(--moriyx)" href="https://dfc-moriyx.neocities.org/" target="_blank">DFC MORIYX</a> | Not affiliated with the <span style="color: var(--chapter1)">DONTFORGET</span> team</p>`
     generateTextboxes()
     generateGrid()
     generateList()
