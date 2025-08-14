@@ -9,74 +9,84 @@
     <script type="module" src="scripts/main.js"></script>
     <script type="module" src="scripts/list.js"></script>
     <script src="scripts/theme.js"></script>
-    <title>Unused Content List | Lost Memories</title>
+    <title>Index | Lost Memories</title>
 </head>
 
 <body>
     <header></header>
-    <!--
-    <input style="margin: 1em 0; margin-left: 1em;" type="checkbox" name="toggle-subarticles" id="toggle-subarticles" onchange="changeList(this.checked)">
-    <label for="toggle-subarticles">Show subarticles</label>
-    -->
-    <div class="columns-list" style="align-items: center;">
-        <img class="pixelperfect" src="assets/demo 2 title.png" alt="Demo 2 Title">
-        <img class="pixelperfect" src="assets/chapter 1 title.png" alt="Chapter 1 Title">
-        <img class="pixelperfect" src="assets/old title.png" alt="Old DFC Title">
-        <img class="pixelperfect" src="assets/new title.png" alt="Modern DFC Title">
-    </div>
-    <div class="columns-list">
-        <div class="demo2">
-            <div>
-                <h2>Demo 2</h2>
-                <h2>(v0.1.0 - v0.1.5)</h2>
+
+    <div class="listmain">
+        <div>
+            <div class="listtitle">
+                <img class="pixelperfect" src="assets/demo 2 title.png" alt="Demo 2 Title">
+                <h3>Demo 2 (v0.1.0 - v0.1.5)</h3>
             </div>
+            <div class="demo2 list"></div>
         </div>
-        <div class="chapter1">
-            <div>
-                <h2>Chapter 1</h2>
-                <h2>(v1.0.0 - v1.3.3)</h2>
+        <div>
+            <div class="listtitle">
+                <img class="pixelperfect" src="assets/chapter 1 title.png" alt="Chapter 1 Title">
+                <h3>Chapter 1 (v1.0.0 - v1.3.3)</h3>
             </div>
+            <div class="chapter1 list"></div>
         </div>
-        <div class="olddfc">
-            <div>
-                <h2>Old DFC</h2>
-                <h2>(v2.0.0 - v2.4.3b)</h2>
+        <div>
+            <div class="listtitle">
+                <img class="pixelperfect" src="assets/old title.png" alt="Legacy DFC Title">
+                <h3>Legacy DFC (v2.0.0 - v2.4.3b)</h3>
             </div>
+            <div class="olddfc list"></div>
         </div>
-        <div class="newdfc">
-            <div>
-                <h2>Modern DFC</h2>
-                <h2>(v2.5.0 - <span class="latest-ver"></span>)</h2>
+        <div>
+            <div class="listtitle">
+                <img class="pixelperfect" src="assets/new title.png" alt="Modern DFC Title">
+                <h3>Modern DFC (v2.5.0 - <span class="latest-ver"></span>)</h3>
             </div>
+            <div class="newdfc list"></div>
         </div>
     </div>
+
     <footer></footer>
     <style>
-        .columns-list {
-            display: grid;
-            grid-template-columns: repeat(4, 1fr);
-            gap: 1em;
+        .listmain {
+            display: flex;
+            flex-wrap: wrap;
         }
-        .demo2, .chapter1, .olddfc, .newdfc {
-            display: inline-block;
+        .listmain > div {
+            width: 50%;
+        }
+        .listtitle {
             text-align: center;
-            width: auto;
         }
-        img {
-            width: 100%;
+        .listtitle img {
+            min-height: 6rem;
         }
-        .demo2 a {
-            color: var(--demo2)
+        @media only screen and (max-width: 600px) {
+            .listmain > div {
+                width: 100%;
+            }
+            .listtitle img {
+                min-height: 0;
+                width: 100%;
+            }
         }
-        .chapter1 a {
-            color: var(--chapter1)
+        .list {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-content: flex-start;
+            gap: 0.5rem;
+            margin-bottom: 1rem;
+            padding: 0.5rem;
         }
-        .olddfc a {
-            color: var(--olddfc)
-        }
-        .newdfc a {
-            color: var(--newdfc)
-        }
+        .demo2 a { border: 2px solid var(--demo2); }
+        .demo2 a:hover { background: var(--demo2); }
+        .chapter1 a { border: 2px solid var(--chapter1); }
+        .chapter1 a:hover { background-color: var(--chapter1); }
+        .olddfc a { border: 2px solid var(--olddfc); }
+        .olddfc a:hover { background: var(--olddfc); }
+        .newdfc a { border: 2px solid var(--newdfc); }
+        .newdfc a:hover { background: var(--newdfc); }
     </style>
     <script type="module">
         import { generateList } from "/scripts/list.js"

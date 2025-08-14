@@ -36,7 +36,10 @@ footer p {
 
 a {
     color: var(--link);
-    text-decoration: none;
+}
+
+a span {
+    text-decoration: underline;
 }
 
 img, video {
@@ -73,6 +76,7 @@ img.textbox {
     transition: scale 0.25s ease-out;
     max-width: 600px;
     box-shadow: 0 0 0.2rem 0.1rem rgba(0, 0, 0, 0.25);
+    text-decoration: none;
 }
 
 html[data-theme="light"] .grid-article {
@@ -107,7 +111,7 @@ nav {
     border-bottom: 1px solid gray;
 }
 
-nav a {
+nav a, .list a {
     display: block;
     color: var(--text);
     background-color: var(--bg);
@@ -116,9 +120,10 @@ nav a {
     text-wrap-mode: nowrap;
     border: 2px solid var(--link);
     transition: 0.25s;
+    text-decoration: none;
 }
 
-nav a:hover {
+nav a:hover, .list a:hover {
     background-color: var(--link);
     color: var(--bg);
 }

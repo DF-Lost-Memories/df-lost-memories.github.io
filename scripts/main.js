@@ -15,13 +15,13 @@ document.addEventListener('DOMContentLoaded', () => {
     `<center><h1>DF: Lost Memories</h1>
     <p>DONTFORGET's cutting room floor</p>
     <nav>
-    <a href="index.html">Home</a> <a href="list.html">Unused Content List</a> <a href="resources.html">Resources</a> <a href="upcoming.html">Upcoming Articles</a> <a href="about.html" class="right">About</a> <a href="changelog.html">Changelog</a> <a href="https://discord.gg/BufyX2gqkq" target="_blank">Discord</a> <a href="javascript:toggleTheme()">Change Theme</a> <a href="/demo2/index.html" class="purple">Lost Timelines</a>
+    <a href="index.html">Home</a> <a href="list.html">Index</a> <a href="resources.html">Resources</a> <a href="upcoming.html">Upcoming Articles</a> <a href="about.html" class="right">About</a> <a href="changelog.html">Changelog</a> <a href="https://discord.gg/BufyX2gqkq" target="_blank">Discord</a> <a href="javascript:toggleTheme()">Change Theme</a> <a href="/demo2/index.html" class="purple">Lost Timelines</a>
     </nav>
     </center>`
 
     document.querySelector('footer').innerHTML =
     `<hr>
-    <p>Website by <span style="color: var(--hflyer)">hflyer</span> | Inspired by <a style="color: var(--moriyx)" href="https://dfc-moriyx.neocities.org/" target="_blank">DFC MORIYX</a> | Not affiliated with <span style="color: var(--rickyg)">RickyG</span> and the <span style="color: var(--chapter1)">DONTFORGET</span> team</p>`
+    <p>Website by <span style="color: var(--hflyer)">hflyer</span> | Inspired by <a style="color: var(--moriyx)" href="https://dfc-moriyx.neocities.org/" target="_blank">DFC MORIYX</a> | Not affiliated with <a style="color: var(--rickyg)" href="https://rickymadethis.com/" target="_blank">RickyG</a> and the <a style="color: var(--chapter1)" target="_blank" href="https://gamejolt.com/games/dontforget/150752">DONTFORGET</a> team</p>`
     generateTextboxes()
     generateGrid()
     generateList()

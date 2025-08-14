@@ -87,5 +87,14 @@
             "Resources: Changed the formatting of the old version archives",
             "Adjusted some colors, mainly for better contrast"
         ]
+    },
+    {
+        "date": "2025-08-14",
+        "changes": [
+            "<span title=\"Ironically, this is not the &quot;index&quot; of the website internally. That's the home page.\">Index</span>: Renamed from \"Unused Content List\", revamped layout and made mobile-friendly",
+            "Renamed \"Old DFC\" to <span style=\"color: var(--olddfc)\">Legacy DFC</span>",
+            "Added more links to footer",
+            "<a href=\"changelog.html\">Links</a> are now underlined to help distinguish them from regular colored text"
+        ]
     }
 ]

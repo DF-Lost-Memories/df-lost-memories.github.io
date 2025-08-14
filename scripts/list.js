@@ -15,5 +15,4 @@ function generateListArticle(article) {
     link.href = `article.html?id=${article.id}`
     link.innerHTML = article.title
     document.querySelector(`.${article.category}`).appendChild(link)
-    document.querySelector(`.${article.category}`).appendChild(document.createElement("br"))
 }
