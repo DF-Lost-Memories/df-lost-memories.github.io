@@ -97,5 +97,15 @@
             "<a href=\"changelog.html\">Links</a> are now underlined to help distinguish them from regular colored text",
             "Increased chances of textboxes actually loading"
         ]
+    },
+    {
+        "date": "2025-08-15",
+        "changes": [
+            "Updated article layout for easier reading",
+            "Added more horizontal lines to articles",
+            "Changed thumbnails of some old articles",
+            "Fixed an oversight with the renaming of Legacy DFC",
+            "<a href=\"/article.html?id=innervoid-2.5d-game\" style=\"color:var(--olddfc)\">2.5D Soul Piece Levels</a>: Fixed the third secret path image replacing the second"
+        ]
     }
 ]

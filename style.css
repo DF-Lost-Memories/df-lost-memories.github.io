@@ -144,3 +144,13 @@ hr {
     border: none;
     border-bottom: 1px solid gray;
 }
+
+@media only screen and (min-width: 600px) {
+    .article-container {
+        padding: 0 15rem;
+    }
+
+    .article-container hr {
+        margin: 0.5em -15rem;
+    }
+}
