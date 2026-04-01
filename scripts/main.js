@@ -12,8 +12,8 @@ document.addEventListener('DOMContentLoaded', () => {
     if (document.querySelector('.latest-ver') != null)
         document.querySelector('.latest-ver').innerHTML = "v2.7.15"
     document.querySelector('header').innerHTML = 
-    `<center><h1>DF: Lost Memories</h1>
-    <p>DONTFORGET's cutting room floor</p>
+    `<center><h1>DF: Lost Media</h1>
+    <p>👀👀👀👀👀</p>
     <nav>
     <a href="index.html">Home</a> <a href="list.html">Index</a> <a href="resources.html">Resources</a> <a href="upcoming.html">Upcoming Articles</a> <a href="about.html" class="right">About</a> <a href="changelog.html">Changelog</a> <a href="https://discord.gg/BufyX2gqkq" target="_blank">Discord</a> <a href="javascript:toggleTheme()">Change Theme</a> <a href="/demo2/index.html" class="purple">Lost Timelines</a>
     </nav>
