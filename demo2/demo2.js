@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', () => {
     `<center><h1>DF: Lost Timelines</h1>
     <p style="color: var(--hflyer)">"${sillymessage}" -hflyer</p>
     <nav>
-    <a href="index.html" class="purple">Home</a> <a href="about.html" class="right purple">About</a> <a href="changelog.html" class="purple">Changelog</a> <a href="https://discord.gg/BufyX2gqkq" target="_blank" class="purple">Discord</a> <a href="javascript:toggleTheme()" class="purple">Change Theme</a> <a href="/index.html">Lost Memories</a></span>
+    <a href="index.html" class="purple">Home</a> <a href="about.html" class="right purple">About</a> <a href="changelog.html" class="purple">Changelog</a> <a href="javascript:toggleTheme()" class="purple">Change Theme</a> <a href="/index.html">Lost Memories</a></span>
     </nav>
     </center>`
 
